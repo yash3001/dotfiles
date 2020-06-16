@@ -17,3 +17,4 @@ set undofile
 set noswapfile
 set title
 set cursorline
+highlight cursorline cterm=none 
