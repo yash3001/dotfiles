@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/yash'
+let g:netrw_dirhist_4='/home/yash/Desktop/shell_scripts'
 let g:netrw_dirhist_3='/home/yash/.config/awesome/layout/left-panel'
 let g:netrw_dirhist_2='/home/yash/.vim'
 let g:netrw_dirhist_1='/home/yash/.config/awesome'

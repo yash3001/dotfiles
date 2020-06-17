@@ -17,4 +17,20 @@ set undofile
 set noswapfile
 set title
 set cursorline
-highlight cursorline cterm=none 
+highlight cursorline cterm=none
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'morhetz/gruvbox'
+Plug 'git@github.com:Valloric/YouCompleteMe.git'
+Plug 'mbbill/undotree'
+
+call plug#end()
+
+colorscheme gruvbox
+set background=dark
+
+let mapleader = " "
+
+nnoremap <leader>u :UndotreeShow<CR>
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
