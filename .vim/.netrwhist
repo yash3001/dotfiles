@@ -1,7 +1,12 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =5
 let g:netrw_dirhist_5='/home/yash'
-let g:netrw_dirhist_4='/home/yash/Desktop/shell_scripts'
-let g:netrw_dirhist_3='/home/yash/.config/awesome/layout/left-panel'
-let g:netrw_dirhist_2='/home/yash/.vim'
-let g:netrw_dirhist_1='/home/yash/.config/awesome'
+let g:netrw_dirhist_4='/home/yash/Desktop/tesing'
+let g:netrw_dirhist_3='/home/yash/Desktop/tesing/testing'
+let g:netrw_dirhist_2='/home/yash/Desktop/tesing'
+let g:netrw_dirhist_1='/home/yash/Desktop'
+let g:netrw_dirhist_0='/home/yash/Desktop/git_projects'
+let g:netrw_dirhist_9='/home/yash/Desktop'
+let g:netrw_dirhist_8='/home/yash/Desktop/tesing'
+let g:netrw_dirhist_7='/home/yash/Desktop/tesing/testing'
+let g:netrw_dirhist_6='/home/yash/Desktop/tesing'
