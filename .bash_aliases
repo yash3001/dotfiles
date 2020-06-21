@@ -8,9 +8,11 @@ alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
 # skipping sudo while installing
 alias apt-get="sudo apt get"
 alias apt="sudo apt"
+alias i="sudo apt install"
 
 # changing and making directories.
 alias ..="cd .."
+alias cdd="cd ~/Desktop/"
 alias mkdir="mkdir -pv"
 
 # for colourfull output (install  colordiff package )

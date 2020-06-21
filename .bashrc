@@ -1,6 +1,12 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
+# Vi / Vim mode
+set -o vi
+
+
+#While making a mccoders video
+#toilet -f mono12 -F metal McCoders 
 
 # If not running interactively, don't do anything
 case $- in
