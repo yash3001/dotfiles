@@ -164,5 +164,5 @@ nnoremap <leader>vt :below vertical terminal<CR>
 nnoremap <leader>vd :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>  
 
 " Copy pasting from clipboard.
-map <C-c> "+y
-map <C-v> "+p
+map <C-y> "+y
+map <C-p> "+p

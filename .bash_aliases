@@ -21,3 +21,6 @@ alias diff="colordiff"
 # editing with vim
 alias edit="vim"
 alias vi="vim"
+
+# alias for git push (Because I am lazy)
+alias push="git add . && git commit -am 'auto-pushing' && git push"
