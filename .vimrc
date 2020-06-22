@@ -18,6 +18,7 @@ set noswapfile
 set title
 set cursorline
 highlight cursorline cterm=none
+let mapleader = " "
 
 
 
@@ -29,7 +30,6 @@ highlight cursorline cterm=none
     "Type :PlugClean to uninstall any unused plugin
     "Type :PlugUpgrade to upgrade Plug itself
     "Type :PlugStatus to check the status of the plugins
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
@@ -76,7 +76,7 @@ nnoremap <leader>u :UndotreeShow<CR>
 
 " 2) To autocomplete tags, type the tag like div then press ,,
 
-" 3) We can use nested tag expansion by typing any tags like div1>div2>div3 then preesing ,,
+" 3) We can use nested tag expansion by typing any tags like div1>div2>div3 then preesing ,, (Make sure you dont have space after writing the expression)
 " <div1>
     " <div2>
         " <div3></div3>
@@ -130,15 +130,12 @@ let g:user_emmet_leader_key=','
 
 " Nerd commentary:
 " Add comments using <leader>cc
-
-let g:NERDSpaceDelims = 1 "To provide space after comment
+let g:NERDSpaceDelims = 1 " To provide space after comment
 
 
 
 
 " General Mappings (<CR> for enter)
-let mapleader = " "
-
 nnoremap <leader><Left> :wincmd h<CR>
 nnoremap <leader><Down> :wincmd j<CR>
 nnoremap <leader><Up> :wincmd k<CR>
@@ -148,6 +145,7 @@ nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 nnoremap <C-d> :sh<CR>
+nnoremap <leader>n o<C-c>cc<C-c>
 inoremap jj <C-c>
 
 " For Terminal only.
