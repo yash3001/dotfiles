@@ -129,8 +129,23 @@ let g:user_emmet_leader_key=','
 
 
 " Nerd commentary:
-" Add comments using <leader>cc
+"
+" 1) <leader>cc         -- Comment out the current line or text selected in visual mode.
+" 2) <leader>cu         -- Uncomments the selected line(s).
+" 3) <leader>ci         -- Toggles(changes) the comment state of the selected line(s) individually.
+" 4) <leader>cA         -- Adds comment delimiters(symbol) to the end of line and goes into insert mode between them.
+" 5) <leader>c$         -- Comments the current line from the cursor to the end of line.
+" 6) <leader>c<space>   -- Toggles the comment state of the selected line(s). If the topmost selected line is commented, all selected lines are uncommented and vice versa.
+" 7) <leader>cs         -- Comments out the selected lines with a pretty block formatted layout. 
+" 8) <leader>cy         -- Same as cc except that the commented line(s) are yanked first.
 let g:NERDSpaceDelims = 1 " To provide space after comment
+let g:NERDCompactSexyComs = 1 " Comments out the selected lines with a pretty block formatted layout.
+
+
+
+
+" Auto-pairs
+let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''", '<':'>' } " Added support for <>
 
 
 
@@ -164,3 +179,4 @@ nnoremap <leader>vd :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 " Copy pasting from clipboard.
 map <C-y> "+y
 map <C-p> "+p
+map <C-P> "+P
