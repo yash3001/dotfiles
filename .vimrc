@@ -144,12 +144,6 @@ let g:NERDCompactSexyComs = 1 " Comments out the selected lines with a pretty bl
 
 
 
-" Auto-pairs
-let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"', "`":"`", '```':'```', '"""':'"""', "'''":"'''", '<':'>' } " Added support for <>
-
-
-
-
 " General Mappings (<CR> for enter)
 nnoremap <leader><Left> :wincmd h<CR>
 nnoremap <leader><Down> :wincmd j<CR>
