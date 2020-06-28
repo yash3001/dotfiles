@@ -13,6 +13,7 @@ import qualified Data.Map        as M
 -- Util
 import XMonad.Util.SpawnOnce
 import XMonad.Util.Run
+import XMonad.Util.EZConfig
 
 -- Hooks
 import XMonad.Hooks.ManageDocks
@@ -48,7 +49,7 @@ myStartupHook = do
 -- LAYOUT
 -------------------------------------------------------
 
-myLayout = avoidStruts( tiled ||| Full ) -- Add ' ||| Mirror tilled ' if you want
+myLayout = avoidStruts( tiled ) ||| Full -- Add ' ||| Mirror tilled ' if you want
   where
      tiled   = smartSpacing 5 $ Tall nmaster delta ratio -- default tiling algorithm partitions the screen into two panes 
      nmaster = 1 -- The default number of windows in the master pane 
