@@ -17,6 +17,12 @@ import XMonad.Util.EZConfig
 
 -- Hooks
 import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.EwmhDesktops -- to show workspaces in application switchers
+import XMonad.Hooks.ManageHelpers (isFullscreen, isDialog,  doFullFloat, doCenterFloat, doRectFloat) 
+import XMonad.Hooks.Place (placeHook, withGaps, smart)
+import XMonad.Hooks.UrgencyHook
+import XMonad.Hooks.WorkspaceHistory
 
 -- Layout
 import XMonad.Layout.Spacing
@@ -33,8 +39,16 @@ myNormalBorderColor = "#dddddd"
 myFocusedBorderColor = "#004c99"
 myFocusFollowsMouse = True
 myClickJustFocuses = False
-myWorkspaces = ["1","2","3","4","5","6","7","8","9"]
-
+--myWorkspaces = ["1","2","3","4","5","6","7","8","9"]
+xmobarEscape = concatMap doubleLts
+  where doubleLts '<' = "<<"
+        doubleLts x   = [x]
+myWorkspaces :: [String]
+myWorkspaces = clickable . (map xmobarEscape) $ ["1","2","3","4","5","6","7","8","9"]
+  where
+         clickable l = [ "<action=xdotool key super+" ++ show (n) ++ ">" ++ ws ++ "</action>" |
+                             (i,ws) <- zip [1..9] l,
+                            let n = i ]
 -------------------------------------------------------
 -- STARTUP HOOK
 -------------------------------------------------------
@@ -62,8 +76,8 @@ myLayout = avoidStruts( tiled ) ||| Full -- Add ' ||| Mirror tilled ' if you wan
 
 myManageHook = composeAll
     [ 
-      className =? "Firefox"            --> doShift "1"
-    , className =? "Transmission-gtk"   --> doShift "6"
+      className =? "Firefox"            --> doShift (myWorkspaces !! 0)   -- It will shift to 'num' + 1 like 0+1 = 1 so on 1 workspace.
+    , className =? "Transmission-gtk"   --> doShift (myWorkspaces !! 5)
     , className =? "MPlayer"            --> doFloat
     , className =? "Gimp"               --> doFloat
     , resource  =? "desktop_window"     --> doIgnore
@@ -80,8 +94,19 @@ myEventHook = mempty
 -- STATUS BAR AND LOGGING
 -------------------------------------------------------
 
-myLogHook = return ()
-
+--myLogHook = workspaceHistoryHook <+> dynamicLogWithPP xmobarPP
+--              { ppOutput = \x -> hPutStrLn xmproc x
+--              , ppCurrent = xmobarColor "#c3e88d" "" . wrap "[" "]" -- Current workspace in xmobar
+--              , ppVisible = xmobarColor "#c3e88d" ""                -- Visible but not current workspace
+--              , ppHidden = xmobarColor "#82AAFF" "" . wrap "*" ""   -- Hidden workspaces in xmobar
+--                         -- , ppHiddenNoWindows = xmobarColor "#F07178" ""        -- Hidden workspaces (no windows)
+--              , ppHiddenNoWindows= \( _ ) -> ""       -- Only shows visible workspaces. Useful for TreeSelect.
+--              , ppTitle = xmobarColor "#d0d0d0" "" . shorten 60     -- Title of active window in xmobar
+--              , ppSep =  "<fc=#666666> | </fc>"                     -- Separators in xmobar
+--              , ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"  -- Urgent workspace
+--             -- , ppExtras  = [windowCount]                           -- # of windows current workspace
+--              , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
+--              }
 -------------------------------------------------------
 -- KEY BINDINGS
 -------------------------------------------------------
@@ -207,9 +232,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 
 main = do
   xmproc <- spawnPipe "xmobar /home/yash/.config/xmobar/xmobarrc"
-  xmonad $ docks defaults
-
-defaults = def {
+  xmonad $ docks def {
       -- simple stuff
         terminal           = myTerminal,
         focusFollowsMouse  = myFocusFollowsMouse,
@@ -228,8 +251,22 @@ defaults = def {
         layoutHook         = myLayout,
         manageHook         = myManageHook,
         handleEventHook    = myEventHook,
-        logHook            = myLogHook,
-        startupHook        = myStartupHook
+        startupHook        = myStartupHook,
+      --  logHook            = myLogHook,
+        logHook            = workspaceHistoryHook <+> dynamicLogWithPP xmobarPP
+                                 { ppOutput = hPutStrLn xmproc 
+                                 , ppCurrent = xmobarColor "#c3e88d" "" . wrap "[" "]" -- Current workspace in xmobar
+                                 , ppVisible = xmobarColor "#c3e88d" ""                -- Visible but not current workspace
+                                 , ppHidden = xmobarColor "#82AAFF" "" . wrap "*" ""   -- Hidden workspaces in xmobar
+                                            -- , ppHiddenNoWindows = xmobarColor "#F07178" ""        -- Hidden workspaces (no windows)
+                                 , ppHiddenNoWindows= \( _ ) -> ""       -- Only shows visible workspaces. Useful for TreeSelect.
+                                 , ppTitle = xmobarColor "#d0d0d0" "" . shorten 60     -- Title of active window in xmobar
+                                 , ppSep =  "<fc=#666666> | </fc>"                     -- Separators in xmobar
+                                 , ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"  -- Urgent workspace
+                                -- , ppExtras  = [windowCount]                           -- # of windows current workspace
+                                 , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
+                                 }
+
     }
 
 -------------------------------------------------------
