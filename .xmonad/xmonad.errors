@@ -1,7 +1,7 @@
 
-xmonad.hs:69:16: warning: [-Wdeprecations]
+xmonad.hs:71:16: warning: [-Wdeprecations]
     In the use of ‘smartSpacing’ (imported from XMonad.Layout.Spacing):
     Deprecated: "Use spacingRaw instead."
    |
-69 |      tiled   = smartSpacing 5 $ Tall nmaster delta ratio -- default tiling algorithm partitions the screen into two panes 
+71 |      tiled   = smartSpacing 5 $ Tall nmaster delta ratio -- default tiling algorithm partitions the screen into two panes 
    |                ^^^^^^^^^^^^

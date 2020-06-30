@@ -59,6 +59,8 @@ myStartupHook = do
         spawnOnce "nitrogen --restore &"
         spawnOnce "compton &"
         spawnOnce "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Tapping Enabled' 1"
+        spawnOnce "trayer --edge top --align right --widthtype percent --width 1% --heighttype request --height 20%  --distancefrom right --distance 2 --transparent true --alpha 0  --tint 0x282a36"
+        spawnOnce "nm-applet &"
 
 -------------------------------------------------------
 -- LAYOUT
@@ -147,6 +149,9 @@ mykeys =
     -- launch a terminal
     [ ("M-<Return>", spawn "terminator")
 
+    -- edit config
+    , ("M-S-e", spawn "terminator -e 'vim /home/yash/.xmonad/xmonad.hs'")
+
     -- launch dmenu
     , ("M-x", spawn "dmenu_run -i -fn 'Monospace' -nf '#F4800d' -sb '#f4800d' -sf '#1e1e1e'")
 
@@ -159,8 +164,8 @@ mykeys =
     -- decrease volume
     , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 5%-")
 
-    -- mute volume
-    , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 5%+")
+    -- increase volume
+    , ("<XF86AudioRaiseVolume>", spawn "amixer -q set Master 5%+")
 
     -- increse brightness
     , ("<XF86MonBrightnessUp>", spawn "/home/yash/.xmonad/brightness.sh +2")
