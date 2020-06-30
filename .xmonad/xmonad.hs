@@ -27,6 +27,7 @@ import XMonad.Hooks.WorkspaceHistory
 -- Layout
 import XMonad.Layout.Spacing
 import XMonad.Layout.NoBorders
+import XMonad.Layout.Named
 
 -------------------------------------------------------
 -- CONFIG
@@ -35,8 +36,8 @@ import XMonad.Layout.NoBorders
 myModMask = mod4Mask
 myTerminal = "terminator"
 myBorderWidth = 1
-myNormalBorderColor = "#dddddd"
-myFocusedBorderColor = "#004c99"
+myNormalBorderColor = "#004c99" 
+myFocusedBorderColor = "#dddddd" 
 myFocusFollowsMouse = True
 myClickJustFocuses = False
 --myWorkspaces = ["1","2","3","4","5","6","7","8","9"]
@@ -113,102 +114,18 @@ myEventHook = mempty
 
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
-    -- launch a terminal
-    [ ((modm,               xK_Return), spawn $ XMonad.terminal conf)
-
-    -- launch dmenu
-    , ((modm,               xK_x     ), spawn "dmenu_run -i -fn 'Monospace' -nf '#F4800d' -sb '#f4800d' -sf '#1e1e1e'")
-
-    -- launch gmrun
-    --, ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
-
-    -- launch firefox
-    , ((modm,               xK_b     ), spawn "firefox")
-
-    -- mute volume
-    , ((0,      xF86XK_AudioMute     ), spawn "amixer -q -D pulse set Master 1+ toggle")
-
-    -- decrease volume
-    , ((0, xF86XK_AudioLowerVolume   ), spawn "amixer -q set Master 5%-")
-
-    -- mute volume
-    , ((0, xF86XK_AudioRaiseVolume   ), spawn "amixer -q set Master 5%+")
-
-    -- close focused window
-    , ((modm,               xK_q     ), kill)
-
-     -- Rotate through the available layout algorithms
-    , ((modm,               xK_space ), sendMessage NextLayout)
-
-    --  Reset the layouts on the current workspace to default
-    , ((modm .|. shiftMask, xK_space ), setLayout $ XMonad.layoutHook conf)
-
-    -- Resize viewed windows to the correct size
-    , ((modm,               xK_n     ), refresh)
-
-    -- Move focus to the next window
-    , ((modm,               xK_Tab   ), windows W.focusDown)
-
-    -- Move focus to the next window
-    , ((modm,               xK_j     ), windows W.focusDown)
-
-    -- Move focus to the previous window
-    , ((modm,               xK_k     ), windows W.focusUp  )
-
-    -- Move focus to the master window
-    , ((modm,               xK_m     ), windows W.focusMaster  )
-
-    -- Swap the focused window and the master window
-    , ((modm .|. shiftMask, xK_Return), windows W.swapMaster)
-
-    -- Swap the focused window with the next window
-    , ((modm .|. shiftMask, xK_j     ), windows W.swapDown  )
-
-    -- Swap the focused window with the previous window
-    , ((modm .|. shiftMask, xK_k     ), windows W.swapUp    )
-
-    -- Shrink the master area
-    , ((modm,               xK_h     ), sendMessage Shrink)
-
-    -- Expand the master area
-    , ((modm,               xK_l     ), sendMessage Expand)
-
-    -- Push window back into tiling
-    , ((modm,               xK_t     ), withFocused $ windows . W.sink)
-
-    -- Increment the number of windows in the master area
-    , ((modm              , xK_comma ), sendMessage (IncMasterN 1))
-
-    -- Deincrement the number of windows in the master area
-    , ((modm              , xK_period), sendMessage (IncMasterN (-1)))
-
-    -- Toggle the status bar gap
-    -- Use this binding with avoidStruts from Hooks.ManageDocks.
-    -- See also the statusBar function from Hooks.DynamicLog.
-    --
-    -- , ((modm              , xK_b     ), sendMessage ToggleStruts)
-
-    -- Quit xmonad
-    , ((modm .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
-
-    -- Lock screen
-    , ((modm .|. shiftMask, xK_l     ), spawn "i3lock-fancy")
-
-    -- Restart xmonad
-    , ((modm,               xK_r     ), spawn "xmonad --recompile; xmonad --restart")
-
-    -- Run xmessage with a summary of the default keybindings (useful for beginners)
-    , ((modm .|. shiftMask, xK_slash ), spawn ("echo \"" ++ help ++ "\" | xmessage -file -"))
+    [
+    --Exchange the active and non active window
+    ((modm .|. shiftMask, xK_space ), setLayout $ XMonad.layoutHook conf)
     ]
     ++
-
     [((m .|. modm, k), windows $ f i)
         | (i, k) <- zip (XMonad.workspaces conf) [xK_1 .. xK_9]
         , (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)]]
 
-------------------------------------------------------------------------
+
 -- Mouse bindings: default actions bound to mouse events
---
+
 myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 
     -- mod-button1, Set the window to floating mode and move by dragging
@@ -225,7 +142,95 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
     -- you may also bind events to the mouse scroll wheel (button4 and button5)
     ]
 
+mykeys =
 
+    -- launch a terminal
+    [ ("M-<Return>", spawn "terminator")
+
+    -- launch dmenu
+    , ("M-x", spawn "dmenu_run -i -fn 'Monospace' -nf '#F4800d' -sb '#f4800d' -sf '#1e1e1e'")
+
+    -- launch firefox
+    , ("M-b", spawn "firefox")
+
+    -- mute volume
+    , ("<XF86AudioMute>", spawn "amixer -q -D pulse set Master 1+ toggle")
+
+    -- decrease volume
+    , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 5%-")
+
+    -- mute volume
+    , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 5%+")
+
+    -- increse brightness
+    , ("<XF86MonBrightnessUp>", spawn "~/.xmonad/brightness.sh +5")
+
+    -- decrese brightness
+    , ("<XF86MonBrightnessDown>", spawn "~/.xmonad/brightness.sh -5")
+
+    -- close focused window
+    , ("M-q", kill)
+
+     -- Rotate through the available layout algorithms
+    , ("M-<Space>", sendMessage NextLayout)
+
+    -- Resize viewed windows to the correct size
+    , ("M-n", refresh)
+
+    -- Move focus to the next window
+    , ("M-<Tab>", windows W.focusDown)
+
+    -- Move focus to the next window
+    , ("M-j", windows W.focusDown)
+
+    -- Move focus to the previous window
+    , ("M-k", windows W.focusUp  )
+
+    -- Move focus to the master window
+    , ("M-m", windows W.focusMaster  )
+
+    -- Swap the focused window and the master window
+    , ("M-S-<Return>", windows W.swapMaster)
+
+    -- Swap the focused window with the next window
+    , ("M-S-j", windows W.swapDown  )
+
+    -- Swap the focused window with the previous window
+    , ("M-S-k", windows W.swapUp    )
+
+    -- Shrink the master area
+    , ("M-h", sendMessage Shrink)
+
+    -- Expand the master area
+    , ("M-l", sendMessage Expand)
+
+    -- Push window back into tiling
+    , ("M-t", withFocused $ windows . W.sink)
+
+    -- Increment the number of windows in the master area
+    , ("M-,", sendMessage (IncMasterN 1))
+
+    -- Deincrement the number of windows in the master area
+    , ("M-.", sendMessage (IncMasterN (-1)))
+
+    -- Toggle the status bar gap
+    -- Use this binding with avoidStruts from Hooks.ManageDocks.
+    -- See also the statusBar function from Hooks.DynamicLog.
+    --
+    -- , ((modm              , xK_b     ), sendMessage ToggleStruts)
+
+    -- Quit xmonad
+    , ("M-S-q", io (exitWith ExitSuccess))
+
+    -- Lock screen
+    , ("M-S-l", spawn "i3lock-fancy")
+
+    -- Restart xmonad
+    , ("M-r", spawn "xmonad --recompile; xmonad --restart")
+
+    -- Run xmessage with a summary of the default keybindings (useful for beginners)
+    , ("M-S-/", spawn ("echo \"" ++ help ++ "\" | xmessage -file -"))
+    ]
 -------------------------------------------------------
 -- MAIN
 -------------------------------------------------------
@@ -258,16 +263,16 @@ main = do
                                  , ppCurrent = xmobarColor "#c3e88d" "" . wrap "[" "]" -- Current workspace in xmobar
                                  , ppVisible = xmobarColor "#c3e88d" ""                -- Visible but not current workspace
                                  , ppHidden = xmobarColor "#82AAFF" "" . wrap "*" ""   -- Hidden workspaces in xmobar
-                                            -- , ppHiddenNoWindows = xmobarColor "#F07178" ""        -- Hidden workspaces (no windows)
+                                 --, ppHiddenNoWindows = xmobarColor "#F07178" ""        -- Hidden workspaces (no windows)
                                  , ppHiddenNoWindows= \( _ ) -> ""       -- Only shows visible workspaces. Useful for TreeSelect.
                                  , ppTitle = xmobarColor "#d0d0d0" "" . shorten 60     -- Title of active window in xmobar
                                  , ppSep =  "<fc=#666666> | </fc>"                     -- Separators in xmobar
                                  , ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"  -- Urgent workspace
-                                -- , ppExtras  = [windowCount]                           -- # of windows current workspace
+                                 --, ppExtras  = [windowCount]                           -- # of windows current workspace
                                  , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
                                  }
 
-    }
+    }`additionalKeysP` mykeys 
 
 -------------------------------------------------------
 -- HELP MENU
