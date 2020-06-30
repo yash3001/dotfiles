@@ -163,11 +163,11 @@ mykeys =
     , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 5%+")
 
     -- increse brightness
-    , ("<XF86MonBrightnessUp>", spawn "~/.xmonad/brightness.sh +5")
+    , ("<XF86MonBrightnessUp>", spawn "/home/yash/.xmonad/brightness.sh +2")
 
     -- decrese brightness
-    , ("<XF86MonBrightnessDown>", spawn "~/.xmonad/brightness.sh -5")
-
+    , ("<XF86MonBrightnessDown>", spawn "/home/yash/.xmonad/brightness.sh -2")
+    
     -- close focused window
     , ("M-q", kill)
 
