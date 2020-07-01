@@ -3,6 +3,7 @@
 -------------------------------------------------------
 
 import XMonad
+import XMonad.ManageHook
 import XMonad.Config.Desktop
 import Data.Monoid
 import System.Exit
@@ -14,10 +15,12 @@ import qualified Data.Map        as M
 import XMonad.Util.SpawnOnce
 import XMonad.Util.Run
 import XMonad.Util.EZConfig
+import XMonad.Util.NamedScratchpad
 
 -- Hooks
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.FadeInactive
 import XMonad.Hooks.EwmhDesktops -- to show workspaces in application switchers
 import XMonad.Hooks.ManageHelpers (isFullscreen, isDialog,  doFullFloat, doCenterFloat, doRectFloat) 
 import XMonad.Hooks.Place (placeHook, withGaps, smart)
@@ -45,7 +48,7 @@ xmobarEscape = concatMap doubleLts
   where doubleLts '<' = "<<"
         doubleLts x   = [x]
 myWorkspaces :: [String]
-myWorkspaces = clickable . (map xmobarEscape) $ ["1","2","3","4","5","6","7","8","9"]
+myWorkspaces = clickable . (map xmobarEscape) $ ["1:web","2:term","3:code","4:file","5:edit","6","7","8","9"]
   where
          clickable l = [ "<action=xdotool key super+" ++ show (n) ++ ">" ++ ws ++ "</action>" |
                              (i,ws) <- zip [1..9] l,
@@ -84,7 +87,7 @@ myManageHook = composeAll
     , className =? "MPlayer"            --> doFloat
     , className =? "Gimp"               --> doFloat
     , resource  =? "desktop_window"     --> doIgnore
-    , resource  =? "kdesktop"           --> doIgnore ]
+    , resource  =? "kdesktop"           --> doIgnore ] <+> namedScratchpadManageHook myScratchPads 
 
 
 -------------------------------------------------------
@@ -97,19 +100,40 @@ myEventHook = mempty
 -- STATUS BAR AND LOGGING
 -------------------------------------------------------
 
---myLogHook = workspaceHistoryHook <+> dynamicLogWithPP xmobarPP
---              { ppOutput = \x -> hPutStrLn xmproc x
---              , ppCurrent = xmobarColor "#c3e88d" "" . wrap "[" "]" -- Current workspace in xmobar
---              , ppVisible = xmobarColor "#c3e88d" ""                -- Visible but not current workspace
---              , ppHidden = xmobarColor "#82AAFF" "" . wrap "*" ""   -- Hidden workspaces in xmobar
---                         -- , ppHiddenNoWindows = xmobarColor "#F07178" ""        -- Hidden workspaces (no windows)
---              , ppHiddenNoWindows= \( _ ) -> ""       -- Only shows visible workspaces. Useful for TreeSelect.
---              , ppTitle = xmobarColor "#d0d0d0" "" . shorten 60     -- Title of active window in xmobar
---              , ppSep =  "<fc=#666666> | </fc>"                     -- Separators in xmobar
---              , ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"  -- Urgent workspace
---             -- , ppExtras  = [windowCount]                           -- # of windows current workspace
---              , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
---              }
+-- Sets opacity for inactive (unfocused) windows. Set
+-- this to a value of less than 1 (such as 0.9 for 90% opacity).
+myLogHook :: X ()
+myLogHook = fadeInactiveLogHook fadeAmount
+    where fadeAmount = 1
+
+
+-------------------------------------------------------
+-- Scratchpads
+-------------------------------------------------------
+
+myScratchPads :: [NamedScratchpad]
+myScratchPads = [ NS "terminal" spawnTerm findTerm manageTerm
+                , NS "mocp" spawnMocp findMocp manageMocp
+                ]
+  where
+    spawnTerm  = myTerminal ++ " -n scratchpad"
+    findTerm   = resource =? "scratchpad"
+    manageTerm = customFloating $ W.RationalRect l t w h
+               where
+                 h = 0.9
+                 w = 0.9
+                 t = 0.95 -h
+                 l = 0.95 -w
+    spawnMocp  = myTerminal ++ " -n mocp 'mocp'"
+    findMocp   = resource =? "mocp"
+    manageMocp = customFloating $ W.RationalRect l t w h
+               where
+                 h = 0.9
+                 w = 0.9
+                 t = 0.95 -h
+                 l = 0.95 -w
+
+
 -------------------------------------------------------
 -- KEY BINDINGS
 -------------------------------------------------------
@@ -224,6 +248,8 @@ mykeys =
     --
     -- , ((modm              , xK_b     ), sendMessage ToggleStruts)
 
+    , ("M-C-<Return>", namedScratchpadAction myScratchPads "terminal")
+
     -- Quit xmonad
     , ("M-S-q", io (exitWith ExitSuccess))
 
@@ -262,19 +288,18 @@ main = do
         manageHook         = myManageHook,
         handleEventHook    = myEventHook,
         startupHook        = myStartupHook,
-      --  logHook            = myLogHook,
-        logHook            = workspaceHistoryHook <+> dynamicLogWithPP xmobarPP
+        logHook            = workspaceHistoryHook <+> myLogHook <+> dynamicLogWithPP xmobarPP
                                  { ppOutput = hPutStrLn xmproc 
-                                 , ppCurrent = xmobarColor "#c3e88d" "" . wrap "[" "]" -- Current workspace in xmobar
-                                 , ppVisible = xmobarColor "#c3e88d" ""                -- Visible but not current workspace
-                                 , ppHidden = xmobarColor "#82AAFF" "" . wrap "*" ""   -- Hidden workspaces in xmobar
-                                 --, ppHiddenNoWindows = xmobarColor "#F07178" ""        -- Hidden workspaces (no windows)
-                                 , ppHiddenNoWindows= \( _ ) -> ""       -- Only shows visible workspaces. Useful for TreeSelect.
-                                 , ppTitle = xmobarColor "#d0d0d0" "" . shorten 60     -- Title of active window in xmobar
-                                 , ppSep =  "<fc=#666666> | </fc>"                     -- Separators in xmobar
-                                 , ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"  -- Urgent workspace
-                                 --, ppExtras  = [windowCount]                           -- # of windows current workspace
-                                 , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t]
+                                 , ppCurrent = xmobarColor "#c3e88d" "" . wrap "[" "]"      -- Current workspace in xmobar
+                                 , ppVisible = xmobarColor "#c3e88d" ""                     -- Visible but not current workspace
+                                 , ppHidden = xmobarColor "#82AAFF" "" . wrap "*" ""        -- Hidden workspaces in xmobar
+                                 --, ppHiddenNoWindows = xmobarColor "#F07178" ""           -- Hidden workspaces (no windows)
+                                 , ppHiddenNoWindows= \( _ ) -> ""                          -- Only shows visible workspaces. Useful for TreeSelect.
+                                 , ppTitle = xmobarColor "#d0d0d0" "" . shorten 60          -- Title of active window in xmobar
+                                 , ppSep =  "<fc=#666666> | </fc>"                          -- Separators in xmobar
+                                 --, ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"     -- Urgent workspace
+                                 --, ppExtras  = [windowCount]                              -- # of windows current workspace
+                                 , ppOrder  = \(ws:l:t:ex) -> [ws]++ex++[t]                 -- Original: ppOrder = \(ws:l:t:ex) -> [ws:l]++ex++[t]
                                  }
 
     }`additionalKeysP` mykeys 
