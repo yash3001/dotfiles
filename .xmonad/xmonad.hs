@@ -63,7 +63,7 @@ myWorkspaces = clickable . (map xmobarEscape) $ ["1:web","2:term","3:code","4:fi
 myStartupHook = do
         spawnOnce "xfce4-power-manager &"
         spawnOnce "nitrogen --restore &"
-        spawnOnce "compton &"
+        spawnOnce "compton --vsync opengl-swc --backend glx &"
         spawnOnce "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Tapping Enabled' 1"
         spawnOnce "trayer --edge top --align right --widthtype percent --width 1% --heighttype request --height 20%  --distancefrom right --distance 2 --transparent true --alpha 0  --tint 0x282a36"
         spawnOnce "nm-applet &"
