@@ -19,7 +19,7 @@ Config { font = "xft:Mononoki Nerd Font:pixelsize=14:antialias=true:hinting=true
                       -- Time and date
                       Run Date "%b %d %Y (%H:%M)" "date" 50
                       -- Network up and down
-                    , Run Network "wlo1" ["-t", "<icon=net_down_20.xpm/>(<rx>) kb  <icon=net_up_20.xpm/>(<tx>) kb"] 20
+                    , Run Network "wlo1" ["-t", "<icon=net_down_20.xpm/>(<rx>) kbps  <icon=net_up_20.xpm/>(<tx>) kbps"] 20
                       -- Cpu usage in percent
                     , Run Cpu ["-t", "cpu: (<total>%)","-H","50","--high","red"] 20
                       -- Ram used number and percent
