@@ -19,6 +19,7 @@ import XMonad.Util.NamedScratchpad
 
 -- Actions
 import XMonad.Actions.WithAll (sinkAll, killAll)
+import XMonad.Actions.CycleWS 
 
 -- Hooks
 import XMonad.Hooks.ManageDocks
@@ -200,6 +201,11 @@ mykeys =
         , ("M-t", withFocused $ windows . W.sink)                       -- Push window back into tiling
         , ("M-,", sendMessage (IncMasterN 1))                           -- Increment the number of windows in the master area 
         , ("M-.", sendMessage (IncMasterN (-1)))                        -- Deincrement the number of windows in the master area 
+
+    -- Worspaces
+        , ("M-<Tab>", toggleWS)                                         -- Toogle to the previous workspace 
+        -- Super + Shift + num --> To move the current active window to the num workspace
+
 
     -- Named Scratchpads
     , ("M-C-<Return>", namedScratchpadAction myScratchPads "terminal")  -- Open terminal as a scratchpad
