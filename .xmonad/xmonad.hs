@@ -73,7 +73,7 @@ myStartupHook = do
 -- LAYOUT
 -------------------------------------------------------
 
-myLayout = avoidStruts( tiled ) ||| noBorders Full -- Add ' ||| Mirror tilled ' if you want
+myLayout = avoidStruts( tiled ||| noBorders Full )-- Add ' ||| Mirror tilled ' if you want
   where
      tiled   = smartSpacing 5 $ Tall nmaster delta ratio -- default tiling algorithm partitions the screen into two panes 
      nmaster = 1 -- The default number of windows in the master pane 
@@ -198,9 +198,12 @@ mykeys =
         , ("M-n", refresh)                                              -- Resize viewed windows to the correct size
         , ("M-h", sendMessage Shrink)                                   -- Shrink the master area
         , ("M-l", sendMessage Expand)                                   -- Expand the master area
+        , ("C-M1-<Left>", sendMessage Shrink)                           -- Shrink the master area
+        , ("C-M1-<Right>", sendMessage Expand)                          -- Expand the master area
         , ("M-t", withFocused $ windows . W.sink)                       -- Push window back into tiling
         , ("M-,", sendMessage (IncMasterN 1))                           -- Increment the number of windows in the master area 
         , ("M-.", sendMessage (IncMasterN (-1)))                        -- Deincrement the number of windows in the master area 
+        , ("M-f", sendMessage ToggleStruts)                             -- Toogles avoidstruts
 
     -- Worspaces
         , ("M-<Tab>", toggleWS)                                         -- Toogle to the previous workspace 
@@ -211,7 +214,9 @@ mykeys =
     , ("M-C-<Return>", namedScratchpadAction myScratchPads "terminal")  -- Open terminal as a scratchpad
 
     -- My Applications (super + alt + key)
-        , ("M-M1-b", spawn "firefox")                                                                  -- Launch Firefox
+        , ("M-M1-b", spawn "firefox")                                                                  -- Launch firefox
+        , ("M-M1-f", spawn "nautilus")                                                                 -- Launch file browser
+        , ("M-M1-m", spawn "terminator -e cmus")                                                                     -- Launch terminal music player
         , ("M-M1-x", spawn "dmenu_run -i -fn 'Monospace' -nf '#F4800d' -sb '#f4800d' -sf '#1e1e1e'")   -- Launch dmenu
 
     -- Multimedia Keys
@@ -220,6 +225,7 @@ mykeys =
         , ("<XF86AudioRaiseVolume>", spawn "amixer -q set Master 5%+")              -- Increase volume
         , ("<XF86MonBrightnessUp>", spawn "/home/yash/.xmonad/brightness.sh +2")    -- Increase brightness by 2 
         , ("<XF86MonBrightnessDown>", spawn "/home/yash/.xmonad/brightness.sh -2")  -- Descrease brightness by 2
+        , ("<Print>", spawn "/home/yash/.xmonad/screenshot.sh")
     
     -- System
         , ("M-S-l", spawn "i3lock-fancy")                               -- Lock Screen
