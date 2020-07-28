@@ -52,7 +52,7 @@ xmobarEscape = concatMap doubleLts
   where doubleLts '<' = "<<"
         doubleLts x   = [x]
 myWorkspaces :: [String]
-myWorkspaces = clickable . (map xmobarEscape) $ ["1:web","2:term","3:code","4:file","5:edit","6","7","8","9"]
+myWorkspaces = clickable . (map xmobarEscape) $ ["1:dev","2:web","3:term","4:code","5:file","6:edit","7:tornt","8:sys","9:other"]
   where
          clickable l = [ "<action=xdotool key super+" ++ show (n) ++ ">" ++ ws ++ "</action>" |
                              (i,ws) <- zip [1..9] l,
@@ -66,8 +66,11 @@ myStartupHook = do
         spawnOnce "nitrogen --restore &"
         spawnOnce "compton --vsync opengl-swc --backend glx &"
         spawnOnce "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Tapping Enabled' 1"
-        spawnOnce "trayer --edge top --align right --widthtype percent --width 1% --heighttype request --height 20%  --distancefrom right --distance 2 --transparent true --alpha 0  --tint 0x282a36"
+        spawnOnce "trayer --edge top --align right --widthtype percent --width 1% --heighttype request --height 20%  --distancefrom right --distance 2 --transparent true --alpha 0  --tint 0x282a36 &"
         spawnOnce "nm-applet &"
+        spawnOnce "xautolock -locker i3lock-fancy -corners +000 -cornerdelay 0 -time 60 -killtime 120 -cornersize 30 &" -- To lock my laptop once i hover the mouse into the top left corner over the haskel symbol
+        spawnOnce "twmnd &"
+        --spawnOnce "/home/yash/.xmonad/notifications/low_battery.sh"       --Using crontab now
 
 -------------------------------------------------------
 -- LAYOUT
@@ -83,12 +86,21 @@ myLayout = avoidStruts( tiled ||| noBorders Full )-- Add ' ||| Mirror tilled ' i
 -------------------------------------------------------
 -- WINDOW RULES
 -------------------------------------------------------
+-- To find the property name associated with a program, use
+-- > xprop | grep WM_CLASS
+-- and click on the client you're interested in.
+--
+-- To match on the WM_NAME, you can use 'title' in the same way that
+-- 'className' and 'resource' are used below.
 
 myManageHook = composeAll
     [ 
-      className =? "Firefox"            --> doShift (myWorkspaces !! 0)   -- It will shift to 'num' + 1 like 0+1 = 1 so on 1 workspace.
-    , className =? "Transmission-gtk"   --> doShift (myWorkspaces !! 5)
-    , className =? "Transmission-gtk"   --> doFloat
+      className =? "Firefox"            --> doShift (myWorkspaces !! 1)   -- It will shift to 'num' + 1 like 0+1 = 1 so on 1 workspace.
+    , className =? "Transmission-gtk"   --> doShift (myWorkspaces !! 6)
+    , className =? "Transmission-gtk"   --> doFloat  
+    , className =? "jetbrains-studio"   --> doShift (myWorkspaces !! 0) 
+--    , className =? "jetbrains-studio"   --> doFloat
+    , className =? "Org.gnome.Nautilus" --> doShift (myWorkspaces !! 4)
     , className =? "MPlayer"            --> doFloat
     , className =? "Gimp"               --> doFloat
     , resource  =? "desktop_window"     --> doIgnore
@@ -225,7 +237,10 @@ mykeys =
         , ("<XF86AudioRaiseVolume>", spawn "amixer -q set Master 5%+")              -- Increase volume
         , ("<XF86MonBrightnessUp>", spawn "/home/yash/.xmonad/brightness.sh +2")    -- Increase brightness by 2 
         , ("<XF86MonBrightnessDown>", spawn "/home/yash/.xmonad/brightness.sh -2")  -- Descrease brightness by 2
-        , ("<Print>", spawn "/home/yash/.xmonad/screenshot.sh")
+        , ("<XF86AudioPlay>", spawn "cmus toggle")
+        , ("<XF86AudioPrev>", spawn "cmus prev")
+        , ("<XF86AudioNext>", spawn "cmus next")
+        , ("<Print>", spawn "/home/yash/.xmonad/screenshot.sh")                     -- Take screenshot
     
     -- System
         , ("M-S-l", spawn "i3lock-fancy")                               -- Lock Screen
