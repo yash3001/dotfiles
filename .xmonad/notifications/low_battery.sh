@@ -39,6 +39,6 @@ then
     BATTERY=$(acpi | grep ..% -o)
     if [[ (${BATTERY} == '44%' || ${BATTERY} == '45%' || ${BATTERY} == '46%') ]] 
     then
-        twmnc -t "Warning" -c "Low battery, please connect the charger" -d 10000 --pos tl --bg "#00ccff" --fg "#000000" --fn "mononoki"
+        /usr/local/bin/twmnc -t "Warning" -c "Low battery, please connect the charger" -d 10000 --pos tl --bg "#00ccff" --fg "#000000" --fn "mononoki"
     fi
 fi
