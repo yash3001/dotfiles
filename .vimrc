@@ -1,29 +1,67 @@
-syntax on 
-set relativenumber
-set nu rnu
-highlight LineNr term=bold ctermfg=DarkGrey guifg=DarkGrey 
-set tabstop=4 softtabstop=4
-set autoindent
-set shiftwidth=4
-set expandtab
-set nowrap 
-set linebreak
-set ignorecase
-set smartcase
-set incsearch
-set showcmd
-set undodir=~/.vim/undodir
-set undofile
-set noswapfile
-set title
-set cursorline
-highlight cursorline cterm=none
+" Setting the mapleader
 let mapleader = " "
 
+" Enabling syntax highlighting
+syntax on
 
+" Enabling relative line numbers
+set relativenumber
+set nu rnu
 
+" Highlighting line numbers (if not using a theme)
+highlight LineNr term=bold ctermfg=DarkGrey guifg=DarkGrey
 
-"Plugins: 
+" Enabling the cursor line highlighting
+set cursorline
+highlight cursorline cterm=none
+
+" Setting tab to 4 spaces
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+
+" Expanding tab to 4 spaces
+set expandtab
+
+" Enabling autoindentaion
+set autoindent
+
+" Disabling line wraping when word exceed line length
+set nowrap
+
+" Dont know what this does
+set linebreak
+
+" Searching case insenitive
+set ignorecase
+set smartcase
+
+" Incremental search
+set incsearch
+
+" Dont know
+set showcmd
+
+" Eliminate delay on pressing esc when using powerline/airline
+set timeoutlen=1000 ttimeoutlen=0
+
+" Setting up undo directory
+set undodir=~/.vim/undodir
+set undofile
+
+" Enabling mouse usage
+set mouse=a
+
+" Disabling the swapfile creation
+set noswapfile
+
+" Giving a title to vim window
+set title
+
+" Enabling the cursor line highlighting
+set cursorline
+highlight cursorline cterm=none
+
+"Plugins
 "Usage----->
     "Type :PlugInstall to install any new plugins
     "Type :PlugUpdate to update any plugins
@@ -33,27 +71,43 @@ let mapleader = " "
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
-Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'mbbill/undotree'
+Plug 'preservim/nerdtree'
 Plug 'jiangmiao/auto-pairs'
-Plug 'vim-airline/vim-airline'
 Plug 'vimwiki/vimwiki'
 Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
+Plug 'chrisbra/Colorizer'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
 
 
 
-"Gruvbox configuration
+"Gruvbox
+"
 colorscheme gruvbox
 set background=dark
 
 
 
 
-"Undotree configuration
+" Airline
+"
+"let g:airline_theme='dark'
+let g:airline_theme='bubblegum'
+let g:airline_powerline_fonts = 1
+
+
+
+
+
+
+
+"Undotree
+"
 "1) To get the undo tree, type <space>+u
 "2) To select any undo number, hover over it and press enter
 nnoremap <leader>u :UndotreeShow<CR>
@@ -62,6 +116,7 @@ nnoremap <leader>u :UndotreeShow<CR>
 
 
 " Emmet-vim (For front end)
+"
 " 1) To get the dummy html text, type html:5 then press ,,
 " <!DOCTYPE html>
 " <html lang="en">
@@ -128,7 +183,7 @@ let g:user_emmet_leader_key=','
 
 
 
-" Nerd commentary:
+" Nerd commentary
 "
 " 1) <leader>cc         -- Comment out the current line or text selected in visual mode.
 " 2) <leader>cu         -- Uncomments the selected line(s).
@@ -140,6 +195,26 @@ let g:user_emmet_leader_key=','
 " 8) <leader>cy         -- Same as cc except that the commented line(s) are yanked first.
 let g:NERDSpaceDelims = 1 " To provide space after comment
 let g:NERDCompactSexyComs = 1 " Comments out the selected lines with a pretty block formatted layout.
+
+
+
+
+" Colorizer
+"
+" 1) :ColorHighlight    -- Highlights hex colours
+" 2) :ColorClear        -- Clears the highlighting
+
+
+
+
+" NERDTree
+"
+" Automatically open nerdtree if vim is not opened with a directory
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && !isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd l |endif
+autocmd VimEnter * if argc() == 0 | exe 'NERDTree' | wincmd l |endif
+" Autmatically close Nerdtree with vim
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 
 
@@ -168,9 +243,21 @@ nnoremap <leader>t :below terminal<CR>
 nnoremap <leader>vt :below vertical terminal<CR>
 
 " To open directories in vim in vertical mode and also resize it.
-nnoremap <leader>vd :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>  
+"nnoremap <leader>vd :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>  
 
 " Copy pasting from clipboard.
 map <C-y> "+y
 map <C-p> "+p
 map <C-P> "+P
+
+" Change cursor shape based upon the mode
+" Ps = 0  -> blinking block.
+" Ps = 1  -> blinking block (default).
+" Ps = 2  -> steady block.
+" Ps = 3  -> blinking underline.
+" Ps = 4  -> steady underline.
+" Ps = 5  -> blinking bar (xterm).
+" Ps = 6  -> steady bar (xterm).
+let &t_SI = "\e[5 q"
+let &t_EI = "\e[0 q"
+let &t_SR = "\e[3 q"
