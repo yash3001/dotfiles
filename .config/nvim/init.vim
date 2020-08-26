@@ -45,6 +45,8 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'mbbill/undotree'
+Plug 'preservim/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'mhinz/vim-startify'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline'
@@ -182,6 +184,20 @@ let g:NERDCompactSexyComs = 1 " Comments out the selected lines with a pretty bl
 
 
 
+" NERDTree
+"
+" Automatically open nerdtree if vim is not opened with a directory
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && !isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd l |endif
+autocmd VimEnter * if argc() == 1 && !isdirectory(argv()[0]) | exe 'NERDTree' | wincmd l | endif
+autocmd VimEnter * if argc() == 0 | exe 'NERDTree' | wincmd l |endif
+" Autmatically close Nerdtree with vim
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+
+
+
+
 let g:startify_custom_header = [
        \ '    _   __                _          ',
        \ '   / | / /__  ____ _   __(_)___ ___  ',
@@ -205,6 +221,9 @@ nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 inoremap jj <C-c>
+
+" NERDTree
+nnoremap <leader>vd :NERDTreeToggle<CR>
 
 " Copy pasting from clipboard.
 map <C-y> "+y

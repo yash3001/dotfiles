@@ -212,6 +212,7 @@ let g:NERDCompactSexyComs = 1 " Comments out the selected lines with a pretty bl
 " Automatically open nerdtree if vim is not opened with a directory
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && !isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd l |endif
+autocmd VimEnter * if argc() == 1 && !isdirectory(argv()[0]) | exe 'NERDTree' | wincmd l | endif
 autocmd VimEnter * if argc() == 0 | exe 'NERDTree' | wincmd l |endif
 " Autmatically close Nerdtree with vim
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -244,6 +245,9 @@ nnoremap <leader>vt :below vertical terminal<CR>
 
 " To open directories in vim in vertical mode and also resize it.
 "nnoremap <leader>vd :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>  
+
+" NERDTree
+nnoremap <leader>vd :NERDTreeToggle<CR>
 
 " Copy pasting from clipboard.
 map <C-y> "+y
