@@ -41,7 +41,7 @@ import XMonad.Layout.Named
 -------------------------------------------------------
 
 myModMask = mod4Mask
-myTerminal = "terminator"
+myTerminal = "st"
 myBorderWidth = 1
 myNormalBorderColor = "#004c99" 
 myFocusedBorderColor = "#dddddd" 
@@ -64,8 +64,9 @@ myWorkspaces = clickable . (map xmobarEscape) $ ["1:dev","2:web","3:term","4:cod
 myStartupHook = do
         spawnOnce "xfce4-power-manager &"
         spawnOnce "nitrogen --restore &"
-        spawnOnce "compton --vsync opengl-swc --backend glx &"
-        spawnOnce "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Tapping Enabled' 1"
+        spawnOnce "compton --config ~/.config/compton/compton.conf"
+        spawnOnce "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Natural Scrolling Enabled' 1"       --For reverse scrolling
+        spawnOnce "xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Tapping Enabled' 1"                 --For tap to click
         spawnOnce "trayer --edge top --align right --widthtype percent --width 1% --heighttype request --height 20%  --distancefrom right --distance 2 --transparent true --alpha 0  --tint 0x282a36 &"
         spawnOnce "nm-applet &"
         spawnOnce "xautolock -locker i3lock-fancy -corners +000 -cornerdelay 0 -time 60 -killtime 120 -cornersize 30 &" -- To lock my laptop once i hover the mouse into the top left corner over the haskel symbol
@@ -95,12 +96,12 @@ myLayout = avoidStruts( tiled ||| noBorders Full )-- Add ' ||| Mirror tilled ' i
 
 myManageHook = composeAll
     [ 
-      className =? "Firefox"            --> doShift (myWorkspaces !! 1)   -- It will shift to 'num' + 1 like 0+1 = 1 so on 1 workspace.
+      className =? "firefox"            --> doShift (myWorkspaces !! 1)   -- It will shift to 'num' + 1 like 0+1 = 1 so on 1 workspace.
     , className =? "Transmission-gtk"   --> doShift (myWorkspaces !! 6)
     , className =? "Transmission-gtk"   --> doFloat  
     , className =? "jetbrains-studio"   --> doShift (myWorkspaces !! 0) 
 --    , className =? "jetbrains-studio"   --> doFloat
-    , className =? "Org.gnome.Nautilus" --> doShift (myWorkspaces !! 4)
+    , className =? "dolphin"            --> doShift (myWorkspaces !! 4)
     , className =? "MPlayer"            --> doFloat
     , className =? "Gimp"               --> doFloat
     , resource  =? "desktop_window"     --> doIgnore
@@ -227,16 +228,16 @@ mykeys =
 
     -- My Applications (super + alt + key)
         , ("M-M1-b", spawn "firefox")                                                                  -- Launch firefox
-        , ("M-M1-f", spawn "nautilus")                                                                 -- Launch file browser
+        , ("M-M1-f", spawn "dolphin")                                                                 -- Launch file browser
         , ("M-M1-m", spawn "terminator -e cmus")                                                                     -- Launch terminal music player
-        , ("M-M1-x", spawn "dmenu_run -i -fn 'Monospace' -nf '#F4800d' -sb '#f4800d' -sf '#1e1e1e'")   -- Launch dmenu
+        , ("M-M1-x", spawn "dmenu_run -h 40 -c -l 10")   -- Launch dmenu
 
     -- Multimedia Keys
         , ("<XF86AudioMute>", spawn "amixer -q -D pulse set Master 1+ toggle")      -- Mute volume 
         , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 5%-")              -- Decrease volume
         , ("<XF86AudioRaiseVolume>", spawn "amixer -q set Master 5%+")              -- Increase volume
-        , ("<XF86MonBrightnessUp>", spawn "/home/yash/.xmonad/brightness.sh +2")    -- Increase brightness by 2 
-        , ("<XF86MonBrightnessDown>", spawn "/home/yash/.xmonad/brightness.sh -2")  -- Descrease brightness by 2
+        , ("<XF86MonBrightnessUp>", spawn "xbacklight -inc 1")                      -- Increase brightness by 2 
+        , ("<XF86MonBrightnessDown>", spawn "xbacklight -dec 1")                    -- Descrease brightness by 2
         , ("<XF86AudioPlay>", spawn "cmus toggle")
         , ("<XF86AudioPrev>", spawn "cmus prev")
         , ("<XF86AudioNext>", spawn "cmus next")
