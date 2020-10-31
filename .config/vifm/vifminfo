@@ -1,0 +1,80 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/yash/
+	..
+1597149759
+'b
+	/home/yash/bin/
+	..
+1597149759
+'h
+	/home/yash/
+	..
+1597149759
+'z
+	/home/yash/.config/vifm
+	..
+1597149759
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/yash/Desktop
+	to be restored
+3
+d/home/yash/Desktop/to be restored
+	_Pictures_
+3
+d/home/yash/Desktop/to be restored/_Pictures_
+	2020-06-13_1920x1080.png
+1
+d/home/yash/Desktop/to be restored
+	_Pictures_
+3
+d/home/yash/Desktop/to be restored/_Pictures_
+	2020-07-25_19_38_30.png
+13
+d
+
+# Right window history (oldest to newest):
+D/home/yash/Desktop
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

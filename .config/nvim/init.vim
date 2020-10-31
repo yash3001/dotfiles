@@ -56,6 +56,8 @@ Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
 Plug 'chrisbra/Colorizer'
 Plug 'altercation/vim-colors-solarized'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 
@@ -207,6 +209,13 @@ let g:startify_custom_header = [
        \ ]
 
 nnoremap <leader>u :UndotreeShow<CR>
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+
+
+
+" Markdown-Preview
+" let g:mkdp_highlight_css = '/home/yash/.config/nvim/github.css'
 
 
 

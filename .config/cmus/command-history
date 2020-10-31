@@ -1,3 +1,7 @@
+q
+clear 
+add Downloads/youtube/music/
+add Music/
 57:25 2020 xmobar    
 58:48 2020 twmn      
 57:25 2020 terminator
@@ -15,4 +19,3 @@ colorscheme jellybeans
 colorscheme dracula
 colorscheme cyan
 colorscheme solarized-dark
-add Music/
