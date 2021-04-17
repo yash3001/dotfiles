@@ -1,0 +1,1224 @@
+[2021-04-13 15:49:34.736] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.LiveServer' took 100% of 5056.588ms, saved PROFILE here: 'file:///tmp/exthost-221b3a.cpuprofile' [{"id":"gc","total":950,"percentage":0},{"id":"program","total":30,"percentage":0},{"id":"ritwickdey.LiveServer","total":5055290,"percentage":100}]
+[2021-04-13 15:49:45.977] [renderer1] [warning] UNRESPONSIVE extension host, 'llvm-vs-code-extensions.vscode-clangd' took 87% of 2883.452ms, saved PROFILE here: 'file:///tmp/exthost-cbdc0e.cpuprofile' [{"id":"esbenp.prettier-vscode","total":261917,"percentage":9},{"id":"gc","total":9799,"percentage":0},{"id":"llvm-vs-code-extensions.vscode-clangd","total":2502513,"percentage":87},{"id":"program","total":2251,"percentage":0},{"id":"ritwickdey.LiveServer","total":475,"percentage":0},{"id":"self","total":61941,"percentage":2},{"id":"vscode.emmet","total":5893,"percentage":0},{"id":"vscode.git","total":19709,"percentage":1},{"id":"vscode.merge-conflict","total":2459,"percentage":0},{"id":"vscodevim.vim","total":16218,"percentage":1}]
+[2021-04-13 15:49:46.686] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-13 16:13:13.486] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-13 16:13:13.530] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 16:13:15.233] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 16:21:10.496] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 16:21:47.897] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 16:21:54.447] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:03:12.870] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:04:05.129] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-13 17:04:05.133] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:04:06.452] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-13 17:04:09.173] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:04:17.865] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-13 17:04:17.867] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:04:20.057] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:08:52.613] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:09:08.511] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:09:44.559] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:09:52.429] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:10:11.460] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 17:10:17.650] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 20:28:09.544] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-13 20:28:17.617] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:14:53.628] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:14:57.449] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:16:07.580] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:17:24.738] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:17:29.961] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:18:25.810] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:18:28.788] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:18:36.496] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:18:49.863] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:18:55.140] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:18:56.243] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:19:05.387] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:19:19.085] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:19:20.329] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:20:27.656] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 13:20:29.183] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:21:18.605] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:21:47.605] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:21:48.936] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:21:55.746] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:23:07.257] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:23:21.340] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:31:08.645] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 13:31:21.987] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:39:23.622] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 13:39:25.128] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:05:42.322] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:05:42.904] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:05:44.486] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:06:16.953] [renderer1] [error] Error: Unable to move/copy '/home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/a.out' because target '/home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/a.out' already exists at destination.
+    at s.doValidateMoveCopy (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:626:34163)
+    at async s.doCanMoveCopy (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:626:31648)
+    at async l.doMoveOrCopy (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:94550)
+    at async fa.perform (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:25603)
+    at async n.apply (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2007:17243
+[2021-04-14 21:06:16.972] [renderer1] [error] Unable to move/copy '/home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/a.out' because target '/home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/a.out' already exists at destination.: Error: Unable to move/copy '/home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/a.out' because target '/home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/a.out' already exists at destination.
+    at s.doValidateMoveCopy (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:626:34163)
+    at async s.doCanMoveCopy (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:626:31648)
+    at async l.doMoveOrCopy (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:94550)
+    at async fa.perform (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:25603)
+    at async n.apply (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:31440)
+    at async o._performFileEdits (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:33270)
+    at async o.perform (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:32812)
+    at async r.apply (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:35282)
+    at async file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2007:17243
+[2021-04-14 21:08:34.499] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:08:54.582] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:09:04.656] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:09.287] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:20.445] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:14:33.731] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:36.085] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:39.527] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:49.880] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:51.163] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:56.813] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:14:59.436] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:15:01.374] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:15:02.566] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:15:04.451] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:15:24.180] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:16:22.142] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:16:40.836] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:16:58.572] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:17:01.866] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:17:23.399] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:20:52.438] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:21:25.268] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:21:27.076] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:21:38.114] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:21:39.536] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:21:41.528] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:21:47.909] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:21:53.220] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:21:53.224] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:25:25.326] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:25:35.771] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:25:35.772] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:26:54.255] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:28:46.449] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:28:53.336] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:29:14.289] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:29:18.833] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:29:19.948] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:29:21.022] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:29:27.712] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:29:41.340] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:29:59.902] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:30:01.683] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:30:07.417] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:30:54.751] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 21:30:54.752] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 21:30:57.379] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:25:56.907] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:26:10.068] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:02.255] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:02.748] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:29:04.662] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:32.325] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:29:35.790] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:29:35.791] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:37.088] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:37.562] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:29:39.194] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:40.882] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:29:40.883] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:42.537] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:29:44.554] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:29:46.197] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:32:38.560] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:34:03.578] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:35:28.424] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:35:56.314] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:35:56.315] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:37:00.177] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:37:07.480] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 22:37:07.491] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:39:46.379] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:45:08.918] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:45:15.387] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:46:22.429] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:47:16.802] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:47:18.594] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:47:22.294] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:48:40.804] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 22:53:59.267] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:05:28.184] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:08:14.561] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:15:01.477] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:15:29.713] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:19:16.640] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:20:04.969] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:20:07.124] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:20:08.618] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:22:08.466] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:22:24.639] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:22:24.640] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:22:38.747] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:22:49.253] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:22:54.933] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-14 23:22:54.935] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:22:57.736] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:23:15.385] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:23:18.043] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:23:39.986] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-14 23:25:32.813] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:07:34.444] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:07:49.553] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-15 13:07:49.558] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:08:08.029] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:08:50.196] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:09:00.083] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:09:01.298] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:10:52.231] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:11:07.343] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:11:10.167] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:11:38.142] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:12:29.746] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:12:32.615] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:12:38.489] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:12:40.568] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:12:41.815] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:12:46.376] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:13:47.238] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:13:50.547] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:13:53.594] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:13:55.761] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:14:06.378] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:14:16.162] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:14:19.189] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:14:21.529] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:14:36.590] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:14:40.983] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:14:51.121] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:16:11.267] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:16:16.872] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:16:24.881] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:16:47.773] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:16:54.918] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:17:33.788] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:17:36.568] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:17:41.989] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:17:45.518] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:17:48.826] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:18:12.188] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-15 13:18:13.322] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-15 21:00:19.080] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)

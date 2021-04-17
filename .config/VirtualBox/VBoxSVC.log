@@ -1,0 +1,89 @@
+00:00:00.050689 main     VirtualBox XPCOM Server 6.1.18 r142142 linux.amd64 (Feb 16 2021 07:45:49) release log
+00:00:00.050698 main     Log opened 2021-04-07T18:54:29.413639000Z
+00:00:00.050700 main     Build Type: release
+00:00:00.050711 main     OS Product: Linux
+00:00:00.050715 main     OS Release: 5.11.11-arch1-1
+00:00:00.050720 main     OS Version: #1 SMP PREEMPT Tue, 30 Mar 2021 14:10:17 +0000
+00:00:00.050804 main     DMI Product Name: HP Laptop 15-bs1xx
+00:00:00.050832 main     DMI Product Version: Type1ProductConfigId
+00:00:00.050847 main     Firmware type: UEFI
+00:00:00.053223 main     Secure Boot: Disabled
+00:00:00.053367 main     Host RAM: 7871MB (7.6GB) total, 3939MB (3.8GB) available
+00:00:00.053397 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.053398 main     Process ID: 2017063
+00:00:00.053400 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.058899 main     IPC socket path: /tmp/.vbox-yash-ipc/ipcd
+00:00:00.208689 nspr-2   VirtualBox: object creation starts
+00:00:00.208800 nspr-2   Home directory: '/home/yash/.config/VirtualBox'
+00:00:00.234215 nspr-2   Loading settings file "/home/yash/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.305895 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.307263 nspr-2   HostDnsMonitor: initializing
+00:00:00.307701 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.307725 nspr-2   HostDnsMonitor: updating information
+00:00:00.307744 nspr-2   HostDnsMonitor: old information
+00:00:00.307749 nspr-2     no server entries
+00:00:00.307752 nspr-2     no domain set
+00:00:00.307755 nspr-2     no search string entries
+00:00:00.307759 nspr-2   HostDnsMonitor: new information
+00:00:00.307762 nspr-2     server 1: 192.168.1.1
+00:00:00.307766 nspr-2     domain: bbrouter
+00:00:00.307769 nspr-2     search string 1: bbrouter
+00:00:00.467989 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.479857 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.564156 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/Ubuntu 20.04/Ubuntu 20.04.vbox" with version "1.16-linux"
+00:00:00.589679 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/pop-os/pop-os.vbox" with version "1.16-linux"
+00:00:00.675018 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/BlackArch/BlackArch.vbox" with version "1.16-linux"
+00:00:00.740333 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/Deepin Linux/Deepin Linux.vbox" with version "1.16-linux"
+00:00:00.759571 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/Pure Arch Linux/Pure Arch Linux.vbox" with version "1.16-linux"
+00:00:00.801404 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/Parrot OS/Parrot OS.vbox" with version "1.16-linux"
+00:00:00.851111 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/Kali Linux/Kali Linux.vbox" with version "1.17-linux"
+00:00:00.904864 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/Arch Linux XFCE/Arch Linux XFCE.vbox" with version "1.16-linux"
+00:00:00.947059 nspr-2   Loading settings file "/home/yash/VirtualBox VMs/Arch Linux XFCE Experimental/Arch Linux XFCE Experimental.vbox" with version "1.16-linux"
+00:00:01.006755 nspr-2   OCI: Local config file '/home/yash/.config/VirtualBox/oci_config' does not exist
+00:00:01.006820 nspr-2   OCI: Original config file '/home/yash/.oci/config' does not exist
+00:00:01.006830 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:01.006852 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:01.006913 nspr-2   VirtualBox: object created
+00:00:07.543663 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:08.140801 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:08.142576 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:10.618501 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:11.711631 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:11.737292 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:11.804285 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:11.806863 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.400006 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.405945 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:31.701998 nspr-4   Saving settings file "/home/yash/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:31.825458 nspr-5   Saving settings file "/home/yash/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:31.918380 nspr-3   Saving settings file "/home/yash/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:31.994483 nspr-6   Saving settings file "/home/yash/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:37.593584 main     VirtualBox: object deletion starts
+00:00:37.593714 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Ubuntu 20.04/Snapshots/{da9a31e7-0408-42f5-8f75-ea3af2f00122}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.593782 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Ubuntu 20.04/Ubuntu 20.04.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.594301 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/pop-os/pop-os.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.594567 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/BlackArch/Snapshots/{1edc363d-00a6-4a4d-8528-21092fc41d8a}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.594606 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/BlackArch/Snapshots/{f28429a9-1b63-4323-b233-9b5cde03d8ef}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.594632 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/BlackArch/BlackArch.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.595226 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Deepin Linux/Snapshots/{5472becf-cdd5-443e-8029-6bd495874211}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.595272 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Deepin Linux/Deepin Linux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.595676 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Pure Arch Linux/Snapshots/{8e598355-9435-44a2-8387-80213bbe886f}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.595714 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Pure Arch Linux/Pure Arch Linux-disk1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596121 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Parrot OS/Snapshots/{924fb4ab-454e-4af2-afcb-9cd3f36449c8}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596159 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Parrot OS/Parrot OS.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596565 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Kali Linux/Snapshots/{bff049cb-e69c-4919-84ca-8da022c68c7c}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596602 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Kali Linux/Snapshots/{bdca6c0c-79d3-4f9e-bd5c-4e6ed906bc06}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596647 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Kali Linux/Snapshots/{88209966-cd47-4fab-9c3c-edda01356170}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596674 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Kali Linux/Snapshots/{6f92b714-a185-43e0-9259-f39658d2a4b5}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596700 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Kali Linux/Snapshots/{acf196a2-eca5-4273-aab8-7d9d4a179763}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.596726 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Kali Linux/Kali Linux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.597799 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Arch Linux XFCE/Snapshots/{0437d064-4c7f-45a7-8f8d-8de8bea256aa}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.597839 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Arch Linux XFCE/Snapshots/{a6770af7-2677-4e89-b288-8b374ae54e08}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.597868 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Arch Linux XFCE/Snapshots/{fb6df9ca-6294-4582-bd9b-85c3f1417faf}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.597909 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Arch Linux XFCE/Arch Linux XFCE-disk1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.598669 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/yash/VirtualBox VMs/Arch Linux XFCE Experimental/Arch Linux XFCE Experimental-disk1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:37.599584 main     HostDnsMonitor: shutting down ...
+00:00:37.612321 main     HostDnsMonitor: shut down
+00:00:37.751630 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:42.612612 main     {00007f8f940194e0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:42.613898 main     VirtualBox: object deleted

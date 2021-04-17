@@ -1,0 +1,101 @@
+[2021-04-09 15:56:49.256] [renderer1] [warning] UNRESPONSIVE extension host, 'llvm-vs-code-extensions.vscode-clangd' took 66% of 5200.954ms, saved PROFILE here: 'file:///tmp/exthost-e6c6ea.cpuprofile' [{"id":"gc","total":14126,"percentage":0},{"id":"llvm-vs-code-extensions.vscode-clangd","total":3410187,"percentage":66},{"id":"ritwickdey.LiveServer","total":1475144,"percentage":28},{"id":"self","total":224198,"percentage":4},{"id":"vscode.debug-auto-launch","total":28387,"percentage":1},{"id":"vscode.git","total":48463,"percentage":1}]
+[2021-04-09 15:57:23.377] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 15:57:30.051] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:00:36.818] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:00:38.532] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:04:39.730] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:04:42.491] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:05:00.385] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:06:09.130] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:06:10.237] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:06:51.355] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:06:59.012] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:14:27.120] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:14:41.521] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:18:43.667] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:18:47.005] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:19:26.421] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:19:27.754] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:20:08.914] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:21:04.301] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:21:08.184] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:21:19.602] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:21:49.782] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:22:41.335] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:23:02.075] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:23:33.728] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:23:56.661] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:24:12.364] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:24:13.453] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:24:14.566] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:24:15.889] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:24:31.286] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:24:38.664] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:28:06.918] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:29:23.569] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:29:54.235] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:30:37.923] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:30:40.418] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:31:02.791] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:31:38.874] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:31:42.939] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:32:23.773] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:36:06.462] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-09 16:36:34.179] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:04:24.286] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:04:25.627] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:05:13.007] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:05:19.941] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:05:36.661] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:05:38.835] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:06:08.080] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:06:14.740] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:06:41.029] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:07:23.503] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:08:54.123] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:09:20.011] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:09:31.936] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:09:33.504] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:09:34.751] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:09:38.444] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:10:57.579] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:11:09.704] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:11:17.061] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:11:21.497] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:11:22.507] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:11:51.577] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:12:05.623] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:12:07.643] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:12:16.307] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:12:17.851] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:12:28.989] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:13:07.118] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:13:10.428] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:13:21.021] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:14:50.999] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:14:54.373] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:14:57.512] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:15:41.216] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:15:51.681] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:15:52.289] [renderer1] [error] Invalid string length: RangeError: Invalid string length
+    at b.getValueInRange2 (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:8527)
+    at b.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:7799)
+    at C.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:571:35881)
+    at Function._computeEdits (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:889)
+    at vi.updateModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:35)
+    at Pr.updateTextEditorModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1233:90911)
+    at Pr.doUpdateTextModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:50485)
+    at Pr.loadFromContent (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49956)
+    at Pr.loadFromFile (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49126)
+    at async Object.factory (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:38267)
+[2021-04-10 17:15:56.153] [renderer1] [error] Invalid string length: RangeError: Invalid string length
+    at b.getValueInRange2 (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:8527)
+    at b.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:7799)
+    at C.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:571:35881)
+    at Function._computeEdits (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:889)
+    at vi.updateModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:35)
+    at Pr.updateTextEditorModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1233:90911)
+    at Pr.doUpdateTextModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:50485)
+    at Pr.loadFromContent (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49956)
+    at Pr.loadFromFile (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49126)
+[2021-04-10 17:17:12.809] [renderer1] [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups

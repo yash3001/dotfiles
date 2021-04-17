@@ -1,0 +1,569 @@
+{
+   "add": {
+      "message": "Tambah"
+   },
+   "add_to_whitelist": {
+      "message": "Tambahkan ke daftar putih"
+   },
+   "ads_management": {
+      "message": "Manajemen iklan"
+   },
+   "allow_ads_from_subs": {
+      "message": "Jangan memblokir iklan untuk saluran langganan"
+   },
+   "appearance": {
+      "message": "Tampilan"
+   },
+   "auto_apply_video_filters": {
+      "message": "Terapkan filter video secara otomatis"
+   },
+   "auto_cinema_mode": {
+      "message": "Aktifkan mode bioskop secara otomatis"
+   },
+   "auto_enable_theater_mode": {
+      "message": "Otomatis meng-aktifkan “Theater mode”"
+   },
+   "auto_execute_script": {
+      "message": "Otomatis jalankan skrip saat YouTube diputar"
+   },
+   "auto_expand_description": {
+      "message": "Otomatis perluas deskripsi video"
+   },
+   "auto_expand_player": {
+      "message": "Otomatis perbesar ukuran Video"
+   },
+   "auto_hide_cards_end_screens": {
+      "message": "Otomatis sembunyikan kartu info dan layar akhir"
+   },
+   "auto_select_quality": {
+      "message": "Putar video secara otomatis pada kualitas pilihan saya"
+   },
+   "auto_sort_comments": {
+      "message": "Urutkan komentar secara otomatis dari yang terbaru"
+   },
+   "autoplay": {
+      "message": "Autoplay"
+   },
+   "backup": {
+      "message": "Backup"
+   },
+   "block_ads": {
+      "message": "Blokir iklan"
+   },
+   "block_hfr_formats": {
+      "message": "Paksa penggunaan format kecepatan bingkai standar (24, 25, 30 FPS) alih-alih format kecepatan bingkai tinggi (48, 50, 60 FPS)"
+   },
+   "block_webm_formats": {
+      "message": "Paksa penggunaan format MP4 dan codec AVC (H.264) sebagai ganti format WebM dan codec VP9 (resolusi maksimum 1080p60 HD)"
+   },
+   "boost_volume": {
+      "message": "Besarkan volume"
+   },
+   "bottom_left_corner": {
+      "message": "Pojok kiri bawah"
+   },
+   "bottom_right_corner": {
+      "message": "Pojok kanan bawah"
+   },
+   "brightness": {
+      "message": "Kecerahan:"
+   },
+   "cards_end_screens_control_info": {
+      "message": "Klik tombol ini untuk menampilkan/menghilangkan anotasi."
+   },
+   "center_video_player": {
+      "message": "Pusatkan pemutar video yang diperluas dalam area pandang"
+   },
+   "cinema_mode": {
+      "message": "Mode Bioskop"
+   },
+   "cinema_mode_control_info": {
+      "message": "Klik tombol ini untuk aktif/non-aktifkan mode bioskop."
+   },
+   "cinema_mode_toggle_size": {
+      "message": "Perbesar pemutaran video secara otomatis ketika mode sinema aktif"
+   },
+   "color": {
+      "message": "Warna:"
+   },
+   "color_inversion": {
+      "message": "Putar balik warna:"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Konfigurasi pintasan keyboard"
+   },
+   "contrast": {
+      "message": "Kontras:"
+   },
+   "control_speed": {
+      "message": "Kontrol kecepatan pemutaran dengan roda mouse saat terus menekan tombol “Kontrol” (Ctrl) saat mengarahkan kursor ke pemutar video dengan kursor mouse"
+   },
+   "control_speed_mouse_button": {
+      "message": "Only when the right mouse button is pressed"
+   },
+   "control_volume": {
+      "message": "Ubah volume dengan kursor mouse"
+   },
+   "control_volume_mouse_button": {
+      "message": "Hanya ketika tombol kanan mouse ditekan"
+   },
+   "controls": {
+      "message": "Controls"
+   },
+   "copy_to_clipboard": {
+      "message": "Menyalin ke clipboard"
+   },
+   "custom_script": {
+      "message": "Ubah script"
+   },
+   "custom_script_control_info": {
+      "message": "Klik tombol ini untuk menjalankan custom script."
+   },
+   "custom_script_instructions": {
+      "message": "Salinkan atau tulis kode JavaScript disini, simpan dengan tombol di bawah, kemudian tekan “Ubah script” di toolbar saat akan dijalankan."
+   },
+   "custom_script_warning": {
+      "message": "Demi keamanan Anda gunakanlah kode yang anda pahami atau kode bersumber dari pengembang terpercaya."
+   },
+   "custom_theme": {
+      "message": "Tema kustom"
+   },
+   "custom_theme_instructions": {
+      "message": "Tempel atau tuliskan kode CSS disini, lalu simpan dengan klik tombol dibawah."
+   },
+   "decrease_playback_speed": {
+      "message": "Memperlambat video"
+   },
+   "default_playback_speed": {
+      "message": "Kecepatan video semula:"
+   },
+   "default_volume_level": {
+      "message": "Volume semula:"
+   },
+   "description": {
+      "message": "Ambil alih kontrol YouTube dan rasakan pengalaman yang lebih baik!"
+   },
+   "detailed_description": {
+      "message": "Dibuat untuk mendapatkan hasil terbaik dari YouTube, ekstensi ini hadir dengan berbagai fitur yang belum pernah anda rasakan sebelumnya, seperti, anda bisa mengelola iklan sesuai keinginan anda (Bisa SKIP Iklan loh xD), kemudahan dalam mengontrol kecepatan pemutaran, terdapat pilihan tema yang menarik (ya, anda bisa mengubah tema YouTube anda), tersedia mode pengulangan untuk anda yang suka mendengarkan satu lagu berulang kali, kontrol YouTube anda dengan shortcut yang disediakan, dan masih banyak lagi... Cobalah sekarang! Tapi ingat setelah anda menggunakannya anda pasti ketagihan ;-D\n\nDengan bangga direkomendasikan oleh Mozilla, ekstensi ini tidak mengumpulkan data dan menghormati privasi pengguna.\n\nYouTube adalah merek dangang dari Google LLC. Penggunaan merek dagang ini tunduk pada Izin Google"
+   },
+   "disable_autoplay": {
+      "message": "Matikan fitur “Autoplay”"
+   },
+   "donate": {
+      "message": "Donasi"
+   },
+   "execute_custom_script": {
+      "message": "eksekusi kustom script"
+   },
+   "expand": {
+      "message": "Memperluas"
+   },
+   "expand_shrink_video_player": {
+      "message": "Memperluas atau memperkecil pemutar video"
+   },
+   "expanded_player_viewport": {
+      "message": "Gunakan seluruh viewport untuk video player yang diperbesar bila mode sinema tidak digunakan, tanpa merubah aspek rasio"
+   },
+   "export": {
+      "message": "Expor"
+   },
+   "export_instructions": {
+      "message": "Buat file Text baru dan paste kode dibawah ini tanpa merubahnya."
+   },
+   "flip_horizontally": {
+      "message": "Balik secara horizontal"
+   },
+   "flip_horizontally_control_info": {
+      "message": "Klik untuk membalik video secara horizontal"
+   },
+   "flip_vertically": {
+      "message": "Balik secara vertikal"
+   },
+   "flip_vertically_control_info": {
+      "message": "Klik untuk membalik video secara vertikal"
+   },
+   "flip_video_horizontally": {
+      "message": "Putar video secara horisontal"
+   },
+   "flip_video_vertically": {
+      "message": "Putar video secara vertikal"
+   },
+   "focus_video_player": {
+      "message": "Atur fokus di pemutar video"
+   },
+   "gaussian_blur": {
+      "message": "Gaussian blur:"
+   },
+   "grayscale": {
+      "message": "Abu-abu:"
+   },
+   "hide_chat": {
+      "message": "Sembunyikan obrolan"
+   },
+   "hide_comments": {
+      "message": "Sembunyikan komentar"
+   },
+   "hide_related_videos": {
+      "message": "Sembunyikan video terkait"
+   },
+   "hue_rotation": {
+      "message": "Rotasi:"
+   },
+   "ignore_playlists": {
+      "message": "Jangan jeda video dalam daftar putar"
+   },
+   "ignore_pop_up_player": {
+      "message": "Abaikan pemutar pop-up"
+   },
+   "import": {
+      "message": "Impor"
+   },
+   "import_error": {
+      "message": "Konten backup tidak valid!"
+   },
+   "import_instructions": {
+      "message": "Pastekan konten folder Backup dan klik tombol “Impor”. Halaman dimuat ulang otomatis jika impor berhasil."
+   },
+   "increase_playback_speed": {
+      "message": "Mempercepat video"
+   },
+   "keyboard_shortcuts": {
+      "message": "Tombol pintasan keyboard"
+   },
+   "keyboard_shortcuts_control_info": {
+      "message": "Klik untuk menampilkan daftar semua pintasan keyboard untuk YouTube (halaman eksternal)"
+   },
+   "keyboard_shortcuts_page": {
+      "message": "Tampilan semua pintasan keyboard untuk youtube"
+   },
+   "launch_mini_player": {
+      "message": "Luncurkan pemutar mini saat menggulir ke bawah untuk membaca komentar"
+   },
+   "locale_code": {
+      "message": "id"
+   },
+   "locale_dir": {
+      "message": "ltr"
+   },
+   "loop": {
+      "message": "Pengulangan"
+   },
+   "loop_control_info": {
+      "message": "Klik tombol ini untuk aktif/non-aktifkan loop."
+   },
+   "loop_end": {
+      "message": "Akhir:"
+   },
+   "loop_start": {
+      "message": "Mulai:"
+   },
+   "message": {
+      "message": "Pesan"
+   },
+   "mini_player": {
+      "message": "Pemutar mini"
+   },
+   "mini_player_position": {
+      "message": "Posisi pemain mini:"
+   },
+   "mini_player_size": {
+      "message": "Ukuran pemain mini:"
+   },
+   "not_interested_control_info": {
+      "message": "Klik tombol ini untuk menghilangkan iklan."
+   },
+   "not_now": {
+      "message": "Tidak sekarang"
+   },
+   "opacity": {
+      "message": "Kegelapan:"
+   },
+   "open_options_page": {
+      "message": "Buka halaman Pengaturan"
+   },
+   "options": {
+      "message": "Pengaturan"
+   },
+   "override_playback_speeds": {
+      "message": "Override kecepatan video semula"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ telah diperbarui, laman ini harus dimuat ulang."
+   },
+   "pause_videos": {
+      "message": "Jeda video yang diputar di tab latar belakang saat video mulai diputar di tab latar depan"
+   },
+   "playback_quality": {
+      "message": "Kualitas pemutar"
+   },
+   "playback_speed": {
+      "message": "Kecepatan pemutaran"
+   },
+   "playlists": {
+      "message": "Daftar putar:"
+   },
+   "playlists_full_screen": {
+      "message": "Daftar Putar (layar penuh):"
+   },
+   "pop_up_player": {
+      "message": "Pemutar pop-up"
+   },
+   "pop_up_player_control_info": {
+      "message": "Klik atau klik kanan untuk menonton dengan pemutar pop-up"
+   },
+   "pop_up_player_embeds": {
+      "message": "Pemutar pop-up dan video tersemat:"
+   },
+   "pop_up_player_embeds_full_screen": {
+      "message": "Pemutar pop-up dan video tersemat (layar penuh):"
+   },
+   "pop_up_player_size": {
+      "message": "Ukuran pemutar pop-up"
+   },
+   "prevent_autoplay": {
+      "message": "Otomatis jeda video diputar saat berada di tab latar belakang"
+   },
+   "prevent_autoplay_foreground_tab": {
+      "message": "Jeda video yang dibuka di tab latar depan juga"
+   },
+   "preview": {
+      "message": "Pratinjau"
+   },
+   "rate": {
+      "message": "Beri rating"
+   },
+   "rate_extension": {
+      "message": "Nilai pengalaman Anda dengan Enhancer for YouTube™."
+   },
+   "remove": {
+      "message": "Buang"
+   },
+   "remove_ads": {
+      "message": "Hilangkan iklan"
+   },
+   "remove_from_whitelist": {
+      "message": "Hapus dari daftar putih"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "Kebalikan dari arah putar mouse wheel untuk mengubah kecepatan dan volume video"
+   },
+   "reverse_playlist": {
+      "message": "Putar balik daftar putar"
+   },
+   "reverse_playlist_control_info": {
+      "message": "Klik atau klik kanan untuk menonton playlist dalam urutan terbalik dengan pemutar pop-up"
+   },
+   "reverse_playlist_order": {
+      "message": "Membalikan urutan daftar putar"
+   },
+   "saturation": {
+      "message": "Saturasi:"
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "screenshot": {
+      "message": "Screenshot"
+   },
+   "screenshot_control_info": {
+      "message": "Klik untuk mengambil screenshot dari video tersebut"
+   },
+   "select_default_playback_speed": {
+      "message": "Pilih kecepatan default pemutar"
+   },
+   "select_normal_playback_speed": {
+      "message": "Pilih kecepatan normal pemutar"
+   },
+   "select_quality_1080p": {
+      "message": "PIlih kualitas “1080p”"
+   },
+   "select_quality_1440p": {
+      "message": "PIlih kualitas “1440p”"
+   },
+   "select_quality_144p": {
+      "message": "PIlih kualitas “144p”"
+   },
+   "select_quality_2160p": {
+      "message": "PIlih kualitas “2160p”"
+   },
+   "select_quality_240p": {
+      "message": "PIlih kualitas “240p”"
+   },
+   "select_quality_2880p": {
+      "message": "PIlih kualitas “2880p”"
+   },
+   "select_quality_360p": {
+      "message": "PIlih kualitas “360p”"
+   },
+   "select_quality_4320p": {
+      "message": "PIlih kualitas “4320p”"
+   },
+   "select_quality_480p": {
+      "message": "PIlih kualitas “480p”"
+   },
+   "select_quality_720p": {
+      "message": "PIlih kualitas “720p”"
+   },
+   "select_quality_auto": {
+      "message": "PIlih kualitas “Auto”"
+   },
+   "select_quality_full_screen": {
+      "message": "Pilih kualitas pemutaran yang berbeda saat memasuki mode layar penuh"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "shrink": {
+      "message": "Memperkecil"
+   },
+   "size_control_info": {
+      "message": "Klik tombol ini untuk me-resize ukuran player. Klik kanan tombol ini untuk menempatkan video di tengah-tengah tampilan."
+   },
+   "skip_ads": {
+      "message": "Lewati iklan"
+   },
+   "skip_remove_ads": {
+      "message": "Lewati atau Hapus iklan"
+   },
+   "speed": {
+      "message": "Kecepatan"
+   },
+   "speed_control_info": {
+      "message": "Gunakan mouse wheel untuk mengubah kecepatan video ketika memposisikan kursor mouse diatas tombol ini. Klik jika ingin menggunakan kecepatan video normal."
+   },
+   "speed_minus_control_info": {
+      "message": "Klik tombol ini untuk memperlambat video."
+   },
+   "speed_plus_control_info": {
+      "message": "Klik tombol ini untuk mempercepat video."
+   },
+   "speed_variation": {
+      "message": "Variasi kecepatan video ketika mouse wheel atau ketika tombol kecepatan “-” dan “+” di-klik:"
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "stop_control_info": {
+      "message": "kontrol"
+   },
+   "stop_video": {
+      "message": "Menghentikan video"
+   },
+   "stop_videos": {
+      "message": "Nonaktifkan pramuat saat video dijeda secara otomatis"
+   },
+   "support": {
+      "message": "Dukung kami"
+   },
+   "switch_back_previous_quality": {
+      "message": "Beralih kembali ke kualitas pemutaran sebelumnya saat keluar dari mode layar penuh"
+   },
+   "take_screenshot": {
+      "message": "Ambil Screenshot video"
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "theme_custom_theme": {
+      "message": "Tema kustom"
+   },
+   "theme_youtube_dark": {
+      "message": "Tema: YouTube™ (Gelap)"
+   },
+   "theme_youtube_deep_dark": {
+      "message": "Tema: YouTube-DeepDark"
+   },
+   "theme_youtube_deep_dark_custom": {
+      "message": "Tema: YouTube-DeepDark (Kustom)"
+   },
+   "theme_youtube_light": {
+      "message": "Tema: YouTube™ (Terang)"
+   },
+   "toggle_cards_end_screens": {
+      "message": "Anotasi"
+   },
+   "toggle_cinema_mode": {
+      "message": "Mode Bioskop"
+   },
+   "toggle_comments_visibility": {
+      "message": "Visibilitas komentar"
+   },
+   "toggle_loop": {
+      "message": "Mode pengulangan"
+   },
+   "toggle_pip_mode": {
+      "message": "Mode Picture-inpicture"
+   },
+   "toggle_related_videos_visibility": {
+      "message": "Visibilitas video terkait"
+   },
+   "toggle_video_filters": {
+      "message": "Filter Video"
+   },
+   "toggle_visibility": {
+      "message": "Anotasi"
+   },
+   "toggle_volume_booster": {
+      "message": "Ubah pengeras suara"
+   },
+   "top_left_corner": {
+      "message": "Pojok kiri atas"
+   },
+   "top_right_corner": {
+      "message": "Pojok kanan atas"
+   },
+   "translate": {
+      "message": "Sempurnakan terjemahan ini"
+   },
+   "variant": {
+      "message": "Varian"
+   },
+   "video_codecs_and_formats": {
+      "message": "Codec dan format video"
+   },
+   "video_filters": {
+      "message": "Filter Video"
+   },
+   "video_filters_control_info": {
+      "message": "Klik tombol ini untuk aktif/non-aktifkan filter."
+   },
+   "video_player": {
+      "message": "Pemutar video"
+   },
+   "videos": {
+      "message": "Video:"
+   },
+   "videos_full_screen": {
+      "message": "Video (layar penuh):"
+   },
+   "volume": {
+      "message": "Volume"
+   },
+   "volume_booster_control_info": {
+      "message": "Klik tombol ini untuk memperkeras suara ."
+   },
+   "volume_booster_control_info_firefox": {
+      "message": "Klik untuk mengaktifkan penguat volume (bug Firefox: ketika penguat volume telah diaktifkan, kecepatan pemutaran tidak dapat diubah dan diperlukan pemuatan ulang halaman untuk memperbaiki masalah [more info: https://bugzilla.mozilla.org/show_bug.cgi?id=1519707 ])"
+   },
+   "volume_booster_level": {
+      "message": "Tingkat penguat volume:"
+   },
+   "volume_variation": {
+      "message": "Ubah volume dengan memutar mouse wheel:"
+   },
+   "watch_pop_up_player": {
+      "message": "Tonton dengan pemutar pop-up"
+   },
+   "whitelist_control_info": {
+      "message": "Klik untuk menambah / menghapus saluran ke / dari daftar putih"
+   },
+   "whitelist_shortcut": {
+      "message": "Tambah/hapus channel ke/dari daftar putih"
+   },
+   "whitelisted_channels": {
+      "message": "Channel pengecualian:"
+   }
+}

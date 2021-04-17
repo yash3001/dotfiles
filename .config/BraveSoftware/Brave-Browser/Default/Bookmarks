@@ -1,0 +1,219 @@
+{
+   "checksum": "3654892f5d49ed885dfbf19e71157360",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13240855912000000",
+            "guid": "8008e566-22fe-46e9-8287-c88d6b95afa6",
+            "id": "5",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13240855911000000",
+                  "guid": "a951e4ac-2df3-4589-8848-4af57a8ec5f5",
+                  "id": "8",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/products/firefox"
+               }, {
+                  "date_added": "13240855911000000",
+                  "guid": "ceef35cb-dd69-46b1-aa8e-f55334be3827",
+                  "id": "9",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13240855911000000",
+                  "guid": "ac67e282-6651-4d3e-8a9f-00def75262a1",
+                  "id": "10",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13240855911000000",
+                  "guid": "716880f1-974d-46f1-9df6-8aa498afe0ee",
+                  "id": "11",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               } ],
+               "date_added": "13245862487273517",
+               "date_modified": "0",
+               "guid": "2eb8dec6-2241-487d-91d1-fadfda7ee08a",
+               "id": "7",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13223747969000000",
+                  "guid": "37e09036-eea9-4920-a1e0-0bf46b73d70b",
+                  "id": "13",
+                  "name": "Ubuntu",
+                  "type": "url",
+                  "url": "http://www.ubuntu.com/"
+               }, {
+                  "date_added": "13223747969000000",
+                  "guid": "ccdc9e93-aa80-4c68-a975-0f82a9fe9779",
+                  "id": "14",
+                  "name": "Ubuntu Wiki (community-edited website)",
+                  "type": "url",
+                  "url": "http://wiki.ubuntu.com/"
+               }, {
+                  "date_added": "13223747969000000",
+                  "guid": "d3ed88c9-9e4c-46bb-8bd9-cc06ad61c8eb",
+                  "id": "15",
+                  "name": "Make a Support Request to the Ubuntu Community",
+                  "type": "url",
+                  "url": "https://answers.launchpad.net/ubuntu/+addquestion"
+               }, {
+                  "date_added": "13223747969000000",
+                  "guid": "b3d2da1b-2a3c-4fb5-9324-0a14132d9ae7",
+                  "id": "16",
+                  "name": "Debian (Ubuntu is based on Debian)",
+                  "type": "url",
+                  "url": "http://www.debian.org/"
+               } ],
+               "date_added": "13245862487273640",
+               "date_modified": "0",
+               "guid": "74859b39-9201-4784-b842-a7438a27a63c",
+               "id": "12",
+               "name": "Ubuntu and Free Software links",
+               "type": "folder"
+            }, {
+               "date_added": "13230899086000000",
+               "guid": "5af81b40-d0c5-44fe-9455-c82674154d0c",
+               "id": "17",
+               "name": "github",
+               "type": "url",
+               "url": "https://github.com/"
+            }, {
+               "date_added": "13230899095000000",
+               "guid": "c9ea9aaf-47f2-490a-a488-04f578f40632",
+               "id": "18",
+               "name": "hi-design",
+               "type": "url",
+               "url": "https://hi-design.herokuapp.com/"
+            }, {
+               "date_added": "13231176450000000",
+               "guid": "4012bbb9-6999-4e0e-b931-90e7f6eb8208",
+               "id": "19",
+               "name": "Development Tools - Python obfuscation",
+               "type": "url",
+               "url": "https://development-tools.net/python-obfuscator/"
+            }, {
+               "date_added": "13231700834000000",
+               "guid": "65160446-c88d-4315-9086-2ece7edfd2a8",
+               "id": "20",
+               "name": "Anonymous File Upload - AnonFiles",
+               "type": "url",
+               "url": "https://anonfiles.com/"
+            }, {
+               "date_added": "13245671278000000",
+               "guid": "fa1b6bfc-6347-4f12-be96-7ce023797bb3",
+               "id": "21",
+               "name": "discord.ext.commands – Bot commands framework — discord.py 1.0.0 documentation",
+               "type": "url",
+               "url": "https://discordpy.readthedocs.io/en/rewrite/ext/commands/index.html"
+            }, {
+               "date_added": "13245671330000000",
+               "guid": "68c86e21-77c9-475a-975a-c2749a3d242c",
+               "id": "22",
+               "name": "Welcome to discord.py — discord.py 1.0.0 documentation",
+               "type": "url",
+               "url": "https://discordpy.readthedocs.io/en/rewrite/"
+            }, {
+               "date_added": "13245671398000000",
+               "guid": "3392351f-69d1-4ec8-b379-7feb788a387a",
+               "id": "23",
+               "name": "Welcome to discord.py — discord.py 1.5.0a documentation",
+               "type": "url",
+               "url": "https://discordpy.readthedocs.io/en/latest/index.html"
+            }, {
+               "children": [ {
+                  "date_added": "13191408510000000",
+                  "guid": "88d3632c-755a-42aa-86f3-532e24555d1a",
+                  "id": "25",
+                  "name": "[30 MIN] Try Not To Laugh - Ultimate EPIC FAILS Compilation | Funny Videos 2018 - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=P2qOZDuiYlM"
+               }, {
+                  "date_added": "13191695585000000",
+                  "guid": "6b21b582-e839-4165-b52e-c4205d7c1d60",
+                  "id": "26",
+                  "name": "Amazing Science Toys/Gadgets 6 - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=GpY3WSB0jbs"
+               }, {
+                  "date_added": "13191795318000000",
+                  "guid": "fc2d6749-86e9-4d96-ad89-9645141e381a",
+                  "id": "27",
+                  "name": "10 AWESOME WATER TRICKS! - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=wXwSpcfYBD4"
+               }, {
+                  "date_added": "13191796802000000",
+                  "guid": "7c3d2426-d4b2-443b-92df-b67ddd26c375",
+                  "id": "28",
+                  "name": "Gravity Visualized - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=MTY1Kje0yLg"
+               }, {
+                  "date_added": "13227461701000000",
+                  "guid": "07c5f099-bb48-4c4c-b767-4a63006da139",
+                  "id": "29",
+                  "name": "(20) #1.4 Android Kotlin Tutorial: How to run Android app in Emulator [ AVD ] - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=JCXYtOtRRSs&list=PLlxmoA0rQ-Lw5k_QCqVl3rsoJOnb_00UV&index=5"
+               }, {
+                  "date_added": "13233085316000000",
+                  "guid": "625a0ddb-30fa-4ec1-bc50-8b6fd76a753a",
+                  "id": "30",
+                  "name": "https://www.youtube.com/watch?v=ecIWPzGEbFc&pbjreload=10",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=ecIWPzGEbFc&pbjreload=10"
+               } ],
+               "date_added": "13245862487273895",
+               "date_modified": "0",
+               "guid": "5a79367a-b58d-437a-bea1-6f8cdc755a14",
+               "id": "24",
+               "name": "unfiled",
+               "type": "folder"
+            } ],
+            "date_added": "13245862487273323",
+            "date_modified": "0",
+            "guid": "49ab377c-5281-44ab-b93b-11dfe3c509b5",
+            "id": "6",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         } ],
+         "date_added": "13245862466639565",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13245862466639581",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13245862466639597",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

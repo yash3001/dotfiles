@@ -1,0 +1,145 @@
+#deal-box {
+  width: 50px;
+  height: 75px;
+  position: fixed;
+  right: 0;
+  top: 58%;
+  background: #e74c3c;
+  cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000000000000000;
+}
+
+@media only screen and (max-width: 1400px) {
+  #deal-box {
+    top: 62%;
+  }
+}
+
+#title {
+  background: rgb(231, 76, 60);
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px 16px;
+}
+
+.each_deal {
+  display: block;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed #2c3e50;
+  padding-bottom: 4px;
+  color: #2c3e50;
+  font-size: 14px;
+}
+
+.each_deal:hover {
+  text-decoration: underline;
+  color: #e67e22 !important;
+}
+.each_deal:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+#show_text {
+  color: #ffffff;
+  font-weight: 500;
+  transform: rotate(-90deg);
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+/* #close {
+      font-size: 13px;
+      position: absolute;
+      top: 0;
+      cursor: pointer;
+      left: 0;
+      padding: 4px;
+      line-height: 0.5;
+      color: #fff;
+    } */
+
+#deal_container {
+  border: 1px solid;
+  position: absolute;
+  right: -350px;
+  width: 350px;
+  height: auto;
+  top: -300%;
+  z-index: 10000000000000000000000000000;
+
+  margin: 0 auto;
+  background: #eee;
+  transform: scale(1);
+  transition-duration: 300ms;
+}
+
+#deal_inner_container {
+  padding: 16px;
+  overflow-y: scroll;
+  height: 400px;
+}
+#deal-box > img {
+  width: 75%;
+  height: 65%;
+}
+.FlashBox {
+  display: none;
+  position: absolute;
+  width: 620px;
+  height: 430px;
+  top: -350%;
+  right: 120%;
+  z-index: 100000000000000000000000000;
+  /* margin: 0 auto; */
+  background: rgb(236, 236, 236);
+  /* box-shadow: 1px 1px 1px 1px #ccc; */
+  -moz-box-shadow: inset 0 0 10px #00000054;
+  -webkit-box-shadow: inset 0 0 10px #0000006b;
+  box-shadow: inset 0 0 10px #0000004f;
+}
+.FlashName {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.MinMaxContainer {
+  display: flex;
+  /* width: 100%; */
+  /* margin-left: auto; */
+  margin-top: 10px;
+  flex: 1;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.MinPrice {
+  background-color: rgba(0, 119, 255, 0.281);
+  padding: 3px;
+}
+
+.MaxPrice {
+  background-color: rgba(255, 0, 0, 0.247);
+  margin-left: 5px;
+  padding: 3px;
+}
+.AveragePrice {
+  background-color: rgba(136, 255, 0, 0.247);
+  margin-left: 5px;
+  padding: 3px;
+}
+.currPriceContainer {
+  margin: 3px;
+  /* background-color: rgba(187, 131, 78, 0.301); */
+  border-bottom: 1px solid rgba(85, 84, 82, 0.301);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 5px;
+  font-size: 15px;
+}

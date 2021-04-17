@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"https://api.bitwarden.com":{"supports_spdy":true}},{"https://identity.bitwarden.com":{"supports_spdy":true}}],"version":5},"network_qualities":{"CAISDUNoYXVoYW5zLTIuNEcYgICAgPj/////AQ==":"3G"}}}

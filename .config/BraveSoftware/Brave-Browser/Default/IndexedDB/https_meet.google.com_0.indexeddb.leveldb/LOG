@@ -1,0 +1,8 @@
+2020/10/07-10:24:07.180 12db6 Reusing MANIFEST /home/yash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/07-10:24:07.180 12db6 Recovering log #10
+2020/10/07-10:24:07.180 12db6 Reusing old log /home/yash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000010.log 
+2020/10/07-10:44:45.204 13011 Level-0 table #14: started
+2020/10/07-10:44:45.204 13011 Level-0 table #14: 0 bytes OK
+2020/10/07-10:44:45.279 13011 Delete type=0 #10
+2020/10/07-10:44:45.280 13011 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/07-10:44:45.280 13011 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

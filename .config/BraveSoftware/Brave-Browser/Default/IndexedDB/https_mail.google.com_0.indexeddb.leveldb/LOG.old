@@ -1,0 +1,15 @@
+2020/10/02-11:51:40.374 ddc9 Reusing MANIFEST /home/yash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/02-11:51:40.374 ddc9 Recovering log #19
+2020/10/02-11:51:40.374 ddc9 Reusing old log /home/yash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000019.log 
+2020/10/02-11:52:38.364 dfd8 Level-0 table #24: started
+2020/10/02-11:52:38.513 dfd8 Level-0 table #24: 435218 bytes OK
+2020/10/02-11:52:38.781 dfd8 Delete type=0 #19
+2020/10/02-11:52:38.782 dfd8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/02-11:52:38.782 dfd8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 3207 : 1
+2020/10/02-11:52:38.782 dfd8 Compacting 1@1 + 1@2 files
+2020/10/02-11:52:38.833 dfd8 Generated table #25@1: 83 keys, 40450 bytes
+2020/10/02-11:52:38.833 dfd8 Compacted 1@1 + 1@2 files => 40450 bytes
+2020/10/02-11:52:38.878 dfd8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/02-11:52:38.879 dfd8 Delete type=2 #21
+2020/10/02-11:52:38.879 dfd8 Delete type=2 #24
+2020/10/02-11:52:38.879 dfd8 Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 3207 : 1 .. (end); will stop at (end)

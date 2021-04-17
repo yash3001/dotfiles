@@ -1,0 +1,111 @@
+[2020-11-23 17:35:05.633] [info] Checking for update
+[2020-11-23 17:35:05.712] [info] Generated new staging user ID: 40bad0ff-c1d9-5a3e-8444-8d11254db7aa
+[2020-11-23 17:35:08.484] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-23 17:56:00.213] [info] Checking for update
+[2020-11-23 17:56:02.718] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-23 18:07:34.418] [info] Checking for update
+[2020-11-23 18:07:35.919] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-24 23:36:20.864] [info] Checking for update
+[2020-11-24 23:36:23.428] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-25 12:19:40.989] [info] Checking for update
+[2020-11-25 12:19:43.228] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-25 14:10:25.534] [info] Checking for update
+[2020-11-25 14:10:27.285] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-27 14:09:04.497] [info] Checking for update
+[2020-11-27 14:09:06.825] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-27 15:10:29.498] [info] Checking for update
+[2020-11-27 15:10:31.605] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-27 15:35:38.159] [info] Checking for update
+[2020-11-27 15:35:41.892] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-27 17:58:04.156] [info] Checking for update
+[2020-11-27 17:58:06.496] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-28 11:08:29.479] [info] Checking for update
+[2020-11-28 11:08:32.233] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-29 01:23:32.598] [info] Checking for update
+[2020-11-29 01:23:35.123] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-30 17:08:38.346] [info] Checking for update
+[2020-11-30 17:08:40.566] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-11-30 22:12:18.377] [info] Checking for update
+[2020-11-30 22:12:20.493] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-12-01 15:56:34.563] [info] Checking for update
+[2020-12-01 15:56:36.935] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-12-02 14:17:11.290] [info] Checking for update
+[2020-12-02 14:17:13.792] [info] Update for version 1.23.0 is not available (latest version: 1.23.0, downgrade is disallowed).
+[2020-12-03 21:20:07.868] [info] Checking for update
+[2020-12-03 21:20:10.032] [info] Found version 1.23.1 (url: Bitwarden-1.23.1-x86_64.AppImage)
+[2020-12-03 21:20:10.034] [info] Downloading update from Bitwarden-1.23.1-x86_64.AppImage
+[2020-12-03 21:20:11.188] [info] File has 321 changed blocks
+[2020-12-03 21:20:11.225] [info] Full: 68,264.52 KB, To download: 6,540.96 KB (10%)
+[2020-12-03 21:20:11.230] [info] Differential download: https://github.com/bitwarden/desktop/releases/download/v1.23.1/Bitwarden-1.23.1-x86_64.AppImage
+[2020-12-03 21:20:11.278] [info] Redirect to https://github-production-release-asset-2e65be.s3.amazonaws.com/76930145/3c48de00-34b7-11eb-8bfe-96030b99216d
+[2020-12-03 21:20:16.663] [info] New version 1.23.1 has been downloaded to /home/yash/.cache/bitwarden-updater/pending/Bitwarden-1.23.1-x86_64.AppImage
+[2020-12-03 21:20:46.538] [info] Install on explicit quitAndInstall
+[2020-12-03 21:20:46.539] [info] Install: isSilent: false, isForceRunAfter: true
+[2020-12-03 21:20:46.544] [error] Error: Error: EACCES: permission denied, unlink '/usr/local/bin/bitwarden'
+    at unlinkSync (fs.js:976:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_bitwartnDU04/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_bitwartnDU04/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at AppImageUpdater.quitAndInstall (/tmp/.mount_bitwartnDU04/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:28:30)
+    at updater_main_UpdaterMain.<anonymous> (/tmp/.mount_bitwartnDU04/resources/app.asar/main.js:18825:63)
+    at Generator.next (<anonymous>)
+    at fulfilled (/tmp/.mount_bitwartnDU04/resources/app.asar/main.js:18731:58)
+[2020-12-03 21:23:02.789] [info] Auto install update on quit
+[2020-12-03 21:23:02.790] [info] Install: isSilent: true, isForceRunAfter: false
+[2020-12-03 21:23:02.792] [error] Error: Error: EACCES: permission denied, unlink '/usr/local/bin/bitwarden'
+    at unlinkSync (fs.js:976:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_bitwartnDU04/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_bitwartnDU04/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_bitwartnDU04/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_bitwartnDU04/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (events.js:288:20)
+    at App.emit (events.js:205:15)
+    at App.<anonymous> (/tmp/.mount_bitwartnDU04/resources/app.asar/main.js:18942:51)
+    at App.emit (events.js:205:15)
+[2020-12-10 00:58:48.099] [info] Checking for update
+[2020-12-10 00:58:51.523] [info] Found version 1.23.1 (url: Bitwarden-1.23.1-x86_64.AppImage)
+[2020-12-10 00:58:51.525] [info] Downloading update from Bitwarden-1.23.1-x86_64.AppImage
+[2020-12-10 00:58:52.663] [info] Update has already been downloaded to /home/yash/.cache/bitwarden-updater/pending/Bitwarden-1.23.1-x86_64.AppImage).
+[2020-12-10 13:38:12.639] [info] Auto install update on quit
+[2020-12-10 13:38:12.641] [info] Install: isSilent: true, isForceRunAfter: false
+[2020-12-10 13:38:12.649] [error] Error: Error: EACCES: permission denied, unlink '/usr/local/bin/bitwarden'
+    at unlinkSync (fs.js:976:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_bitwar072N9s/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_bitwar072N9s/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_bitwar072N9s/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_bitwar072N9s/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (events.js:288:20)
+    at App.emit (events.js:205:15)
+    at App.<anonymous> (/tmp/.mount_bitwar072N9s/resources/app.asar/main.js:18942:51)
+    at App.emit (events.js:205:15)
+[2020-12-10 17:01:04.873] [info] Checking for update
+[2020-12-10 17:01:08.157] [info] Found version 1.23.1 (url: Bitwarden-1.23.1-x86_64.AppImage)
+[2020-12-10 17:01:08.160] [info] Downloading update from Bitwarden-1.23.1-x86_64.AppImage
+[2020-12-10 17:01:09.363] [info] Update has already been downloaded to /home/yash/.cache/bitwarden-updater/pending/Bitwarden-1.23.1-x86_64.AppImage).
+[2020-12-10 17:52:51.268] [info] Auto install update on quit
+[2020-12-10 17:52:51.269] [info] Install: isSilent: true, isForceRunAfter: false
+[2020-12-10 17:52:51.272] [error] Error: Error: EACCES: permission denied, unlink '/usr/local/bin/bitwarden'
+    at unlinkSync (fs.js:976:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_bitwarg2QjMM/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_bitwarg2QjMM/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_bitwarg2QjMM/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_bitwarg2QjMM/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (events.js:288:20)
+    at App.emit (events.js:205:15)
+    at App.<anonymous> (/tmp/.mount_bitwarg2QjMM/resources/app.asar/main.js:18942:51)
+    at App.emit (events.js:205:15)
+[2020-12-16 10:18:12.450] [info] Checking for update
+[2020-12-16 10:18:16.611] [info] Found version 1.23.1 (url: Bitwarden-1.23.1-x86_64.AppImage)
+[2020-12-16 10:18:16.613] [info] Downloading update from Bitwarden-1.23.1-x86_64.AppImage
+[2020-12-16 10:18:17.781] [info] Update has already been downloaded to /home/yash/.cache/bitwarden-updater/pending/Bitwarden-1.23.1-x86_64.AppImage).
+[2020-12-16 10:18:41.241] [info] Auto install update on quit
+[2020-12-16 10:18:41.243] [info] Install: isSilent: true, isForceRunAfter: false
+[2020-12-16 10:18:41.250] [error] Error: Error: EACCES: permission denied, unlink '/usr/local/bin/bitwarden'
+    at unlinkSync (fs.js:976:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_bitwargTnziZ/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_bitwargTnziZ/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_bitwargTnziZ/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_bitwargTnziZ/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (events.js:288:20)
+    at App.emit (events.js:205:15)
+    at App.<anonymous> (/tmp/.mount_bitwargTnziZ/resources/app.asar/main.js:18942:51)
+    at App.emit (events.js:205:15)

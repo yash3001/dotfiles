@@ -1,0 +1,15 @@
+[2021-04-13 15:49:26.150] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2021-04-13 15:49:26.154] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2021-04-13 15:49:30.620] [sharedprocess] [info] Downloaded extension: vscodevim.vim undefined
+[2021-04-13 15:49:30.779] [sharedprocess] [info] Extracted extension to /home/yash/.vscode-oss/extensions/.vscodevim.vim-1.19.3: vscodevim.vim
+[2021-04-13 15:49:30.780] [sharedprocess] [info] Renamed to /home/yash/.vscode-oss/extensions/vscodevim.vim-1.19.3
+[2021-04-13 15:49:30.781] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2021-04-13 15:49:31.141] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2021-04-13 15:49:38.564] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode undefined
+[2021-04-13 15:49:39.240] [sharedprocess] [info] Extracted extension to /home/yash/.vscode-oss/extensions/.esbenp.prettier-vscode-6.3.2: esbenp.prettier-vscode
+[2021-04-13 15:49:39.240] [sharedprocess] [info] Renamed to /home/yash/.vscode-oss/extensions/esbenp.prettier-vscode-6.3.2
+[2021-04-13 15:49:39.242] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2021-04-13 15:49:39.424] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2021-04-13 15:50:00.802] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-14 13:33:48.260] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-04-14 17:26:37.121] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

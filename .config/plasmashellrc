@@ -1,0 +1,28 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/Wallpapers/aurora_above_mountains.jpg,file:$HOME/Pictures/Wallpapers/minimal_sun_mountain.jpg,file:$HOME/Pictures/Wallpapers/minimalist_sunset.jpg,file:$HOME/Pictures/Wallpapers/ancient_chinese_town.jpg,file:$HOME/Pictures/Wallpapers/rock_climbing.jpg,file:$HOME/Pictures/Wallpapers/forest_dark.jpg,file:$HOME/Pictures/Wallpapers/binary_world.jpg
+Recent URLs[$e]=file:$HOME/Pictures/Wallpapers/,file:$HOME/Pictures/,file:$HOME/
+detailViewIconSize=16
+iconViewIconSize=43
+
+[KPropertiesDialog]
+eDP1 Height 1080=544
+eDP1 Width 1920=438
+
+[Open-with settings]
+CompletionMode=1
+History=ima
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_applications:gimp.desktop,1 services_applications:com.blackmagicdesign.resolve.desktop,1 services_applications:code-oss.desktop,3 services_applications:org.inkscape.Inkscape.desktop,2 shell_st,2 services_applications:org.bleachbit.BleachBit.desktop,4 services_applications:pcmanfm.desktop,3 services_applications:com.obsproject.Studio.desktop,2 services_applications:firefox.desktop,1 services_applications:org.kde.kdenlive.desktop,9 services_applications:org.kde.konsole.desktop,3 services_applications:htop.desktop,1 shell_bleachbit root,3 services_applications:brave-browser.desktop,3 services_applications:virtualbox.desktop,16 services_applications:st.desktop
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=36
+
+[ScreenConnectors]
+0=eDP1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js

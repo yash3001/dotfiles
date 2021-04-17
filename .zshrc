@@ -1,3 +1,11 @@
+neofetch
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -104,13 +112,18 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-echo ""
+# echo ""
 # pfetch
 #fortune | cowsay -f tux
 # colorscript random
-neofetch
+# neofetch
 
 #Aliases
+
+# to stop me from fucking myself
+alias mv="mv -i"
+alias cp="cp -i"
+
 # listing (install exa first)
 alias ls="lsd -l"
 alias la="lsd -la"
@@ -127,15 +140,17 @@ alias mkdir="mkdir -pv"
 # for colourfull output (install  colordiff package )
 alias diff="colordiff"
 
-# editing with vim
-alias edit="vim"
-alias vi="vim"
+# editing with nvim
+alias edit="nvim"
+alias vi="nvim"
+alias vim="nvim"
 
 # alias for git push (Because I am lazy)
 alias push="git add . && git commit -am 'auto-push' && git push"
+alias cppush="git add . && git commit -am 'added code' && git push"
 
 #For clearing and adding a new line after that
-alias clear='clear && echo ""'
+#alias clear='clear && echo ""'
 
 #lolz
 alias :q="exit"
@@ -156,3 +171,24 @@ MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #00ffff"
 # Search backward in history after typing the first character
 #bindkey "^[[A" history-beginning-search-backward
 #bindkey "^[[B" history-beginning-search-forward
+
+PATH=$PATH:/home/yash/Desktop/.desktop/automate
+PATH=$PATH:/home/yash/.local/bin
+PATH=$PATH:/home/yash/.local/lib/python3.8/site-packages
+PATH=$PATH:/home/yash/anaconda3/bin
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/yash/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/yash/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/yash/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/yash/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

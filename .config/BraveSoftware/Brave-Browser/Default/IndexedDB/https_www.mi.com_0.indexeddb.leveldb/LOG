@@ -1,0 +1,15 @@
+2020/10/16-15:54:10.370 3e659 Reusing MANIFEST /home/yash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.mi.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/16-15:54:10.370 3e659 Recovering log #7
+2020/10/16-15:54:10.370 3e659 Reusing old log /home/yash/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.mi.com_0.indexeddb.leveldb/000007.log 
+2020/10/16-15:54:45.339 35c5d Level-0 table #11: started
+2020/10/16-15:54:45.383 35c5d Level-0 table #11: 190 bytes OK
+2020/10/16-15:54:45.428 35c5d Delete type=0 #7
+2020/10/16-15:54:45.429 35c5d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/16-15:54:45.429 35c5d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 74 : 1
+2020/10/16-15:54:45.429 35c5d Compacting 1@1 + 1@2 files
+2020/10/16-15:54:45.472 35c5d Generated table #12@1: 26 keys, 590 bytes
+2020/10/16-15:54:45.473 35c5d Compacted 1@1 + 1@2 files => 590 bytes
+2020/10/16-15:54:45.516 35c5d compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/16-15:54:45.517 35c5d Delete type=2 #11
+2020/10/16-15:54:45.517 35c5d Delete type=2 #5
+2020/10/16-15:54:45.518 35c5d Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 74 : 1 .. (end); will stop at (end)

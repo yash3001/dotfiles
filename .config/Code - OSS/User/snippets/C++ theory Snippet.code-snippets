@@ -1,0 +1,17 @@
+{
+  "C++ theory Snippet": {
+    "prefix": "cpt",
+    "body": [
+      "/* @author -> gamma30 */",
+      "#include <bits/stdc++.h>",
+      "",
+      "using namespace std;",
+      "",
+      "int main(){",
+      "    $0",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C++ Custom Snippet for competitive programming"
+  }
+}

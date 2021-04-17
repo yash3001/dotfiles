@@ -1,0 +1,238 @@
+[2021-04-16 11:14:44.457] [exthost] [info] extension host started
+[2021-04-16 11:14:44.568] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-04-16 11:14:44.568] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-04-16 11:14:44.651] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-16 11:14:44.651] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-04-16 11:14:44.923] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-04-16 11:14:44.923] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-04-16 11:14:54.141] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-04-16 11:14:54.141] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/vscodevim.vim-1.19.3/out/extension
+[2021-04-16 11:14:54.534] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-16 11:14:54.535] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-04-16 11:14:54.781] [exthost] [info] eager extensions activated
+[2021-04-16 11:14:54.785] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-04-16 11:14:54.786] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-04-16 11:14:55.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-04-16 11:14:55.055] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-04-16 11:14:55.254] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-04-16 11:14:55.254] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-04-16 11:14:55.275] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-04-16 11:14:55.275] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/esbenp.prettier-vscode-6.3.2/dist/extension
+[2021-04-16 11:14:55.653] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-04-16 11:14:55.654] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-04-16 11:15:01.819] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"extensionId":{"value":"aaron-bond.better-comments","_lower":"aaron-bond.better-comments"},"activationEvent":"onLanguage:cpp"}
+[2021-04-16 11:15:01.820] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/aaron-bond.better-comments-2.1.0/out/extension
+[2021-04-16 11:15:01.927] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd {"startup":false,"extensionId":{"value":"llvm-vs-code-extensions.vscode-clangd","_lower":"llvm-vs-code-extensions.vscode-clangd"},"activationEvent":"onLanguage:cpp"}
+[2021-04-16 11:15:01.927] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/extension
+[2021-04-16 11:15:14.511] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:14.511] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:14.513] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:14.513] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:14.515] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:14.515] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:26.679] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:26.679] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:26.680] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:26.680] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:26.681] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:26.681] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:26.682] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:26.682] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:26.683] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:26.683] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:29.540] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:29.540] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:29.546] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:29.546] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:15:29.547] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:29.547] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:15:29.548] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:29.548] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:15:29.549] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:29.549] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:29.550] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:29.550] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:29.552] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:29.552] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:33.268] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:33.268] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:34.644] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:34.644] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:36.938] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:36.938] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:15:50.784] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:15:50.784] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:04.706] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:04.706] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:08.310] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:08.310] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:08.311] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:08.311] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:10.682] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:10.682] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:11.138] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:11.138] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:16.667] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:16.667] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:16.687] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:16.687] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:16.779] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:16.779] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:25.874] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:25.874] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:49.273] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:49.273] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:52.294] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:52.294] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:58.215] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:58.215] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:16:58.297] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:16:58.297] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:17:00.530] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:00.530] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:17:41.470] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:41.470] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:17:43.130] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:43.130] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:17:44.686] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:44.686] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:17:46.615] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:46.615] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:17:58.539] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:58.539] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:17:58.640] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:58.640] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:17:58.688] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:17:58.688] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:00.705] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:00.705] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:08.818] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:08.818] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:14.261] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:14.261] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:19.656] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:19.656] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:19.861] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:19.861] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:18:19.862] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:19.862] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:27.581] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:27.582] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:29.665] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:29.665] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:18:35.286] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:35.286] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:35.294] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:35.294] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:18:35.365] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:18:35.365] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:19:00.377] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:19:00.377] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:19:11.881] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:19:11.881] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:19:11.995] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:19:11.995] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:01.193] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.193] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:01.193] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.193] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:24:01.238] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.238] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:01.238] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.238] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:01.239] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.239] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:01.239] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.239] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:01.239] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.239] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:01.239] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:01.239] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:24:47.481] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:24:47.481] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:25:24.119] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:25:24.119] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:25:29.874] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:25:29.874] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:25:36.546] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:25:36.546] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:25:48.780] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:25:48.780] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:25:57.368] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:25:57.368] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:26:04.628] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:26:04.628] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:27:32.642] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:27:32.642] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:29:43.368] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:29:43.368] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:29:44.313] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:29:44.313] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:32:22.348] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:22.348] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:35.764] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:35.764] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:35.764] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:35.764] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:35.764] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:35.764] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:35.765] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:35.765] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:35.765] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:35.765] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:35.765] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:35.765] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:42.660] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:42.660] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:44.435] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:44.435] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:44.435] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:44.435] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:44.435] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:44.435] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:44.435] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:44.435] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:44.435] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:44.435] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:44.435] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:44.435] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:32:48.225] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:32:48.225] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:33:00.791] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:33:00.791] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:36:05.154] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:36:05.154] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:36:05.847] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:36:05.847] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-16 11:36:07.269] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:36:07.269] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:36:22.491] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:36:22.491] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:36:40.107] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:36:40.107] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:37:06.807] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:37:06.807] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:38:06.264] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:38:06.264] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:40:15.366] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:40:15.366] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:40:15.367] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:40:15.367] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:40:15.367] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:40:15.367] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:40:15.368] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:40:15.368] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:42:13.546] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:42:13.546] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:42:13.546] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:42:13.546] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:45:29.701] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-16 11:45:29.701] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-16 11:55:55.973] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-04-16 11:55:55.974] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-04-16 11:55:56.143] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-04-16 11:55:56.143] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-04-16 11:55:56.220] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-04-16 11:55:56.220] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-04-16 12:37:58.772] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-16 12:37:59.796] [exthost] [info] exiting with code 0

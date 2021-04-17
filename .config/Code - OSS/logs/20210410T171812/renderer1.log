@@ -1,0 +1,144 @@
+[2021-04-10 17:18:47.216] [renderer1] [warning] UNRESPONSIVE extension host, 'llvm-vs-code-extensions.vscode-clangd' took 100% of 5153.146ms, saved PROFILE here: 'file:///tmp/exthost-50fced.cpuprofile' [{"id":"gc","total":8101,"percentage":0},{"id":"llvm-vs-code-extensions.vscode-clangd","total":5144751,"percentage":100},{"id":"self","total":36,"percentage":0}]
+[2021-04-10 17:18:47.892] [renderer1] [error] Server returned 422: Error: Server returned 422
+    at Object.p [as asText] (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:631:134974)
+    at s (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1494:48262)
+    at async n._processCpuProfile (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1687:20305)
+[2021-04-10 17:38:29.090] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:56:18.836] [renderer1] [error] Invalid string length: RangeError: Invalid string length
+    at b.getValueInRange2 (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:8527)
+    at b.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:7799)
+    at C.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:571:35881)
+    at Function._computeEdits (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:889)
+    at vi.updateModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:35)
+    at Pr.updateTextEditorModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1233:90911)
+    at Pr.doUpdateTextModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:50485)
+    at Pr.loadFromContent (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49956)
+    at Pr.loadFromFile (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49126)
+    at async Object.factory (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:38267)
+[2021-04-10 17:56:37.457] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 17:56:45.125] [renderer1] [error] Invalid string length: RangeError: Invalid string length
+    at b.getValueInRange2 (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:8527)
+    at b.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:7799)
+    at C.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:571:35881)
+    at Function._computeEdits (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:889)
+    at vi.updateModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:35)
+    at Pr.updateTextEditorModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1233:90911)
+    at Pr.doUpdateTextModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:50485)
+    at Pr.loadFromContent (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49956)
+    at Pr.loadFromFile (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49126)
+    at async Object.factory (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2218:38267)
+[2021-04-10 17:57:04.339] [renderer1] [error] Invalid string length: RangeError: Invalid string length
+    at b.getValueInRange2 (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:8527)
+    at b.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:152:7799)
+    at C.getValueInRange (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:571:35881)
+    at Function._computeEdits (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:889)
+    at vi.updateModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:726:35)
+    at Pr.updateTextEditorModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1233:90911)
+    at Pr.doUpdateTextModel (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:50485)
+    at Pr.loadFromContent (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49956)
+    at Pr.loadFromFile (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2212:49126)
+[2021-04-10 17:59:32.631] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:00:36.404] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:02:00.459] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-10 18:03:38.095] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at FileStatus.updateStatus (/home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:32:58)
+    at /home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/file-status.js:8:89
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:43807
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:145142)
+    at p.$acceptDocumentsAndEditorsDelta (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:143272)
+    at c._doInvokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10509)
+    at c._invokeHandler (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10201)
+    at c._receiveRequest (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8871)
+    at c._receiveOneMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:7673)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:5782
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:29119
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at p.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15443)
+    at t._receiveMessage (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20693)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17587
+    at g.fire (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+    at l.acceptChunk (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12808)
+    at /usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12156
+    at Socket.E (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:106:12375)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-10 18:04:02.286] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:04:10.333] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:04:11.557] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:04:15.251] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:04:20.594] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:11:04.394] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:11:12.078] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:11:43.489] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:11:50.145] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:12:50.536] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:16:29.502] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:16:57.237] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:17:49.595] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:17:52.191] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:17:59.758] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:19:46.903] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:20:22.961] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:22:06.477] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:22:12.610] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:22:14.482] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:22:17.424] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:22:25.276] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:22:51.253] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:22:57.057] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:23:03.086] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:23:17.456] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:23:30.310] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:24:31.081] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:24:58.678] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:25:19.008] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:25:51.975] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:26:36.708] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:27:09.664] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:27:12.041] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:27:16.020] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:27:20.906] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:27:23.227] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:27:48.291] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:27:51.214] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:28:12.801] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:28:18.710] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:28:26.435] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:28:35.182] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:28:36.980] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2021-04-10 18:28:43.154] [renderer1] [error] An unknown error occurred. Please consult the log for more details.

@@ -1,0 +1,8 @@
+# GIMP gimp-text-tool options
+
+(palette "Color History")
+(font "Cascadia Code Bold")
+(font-size 200)
+(justify center)
+
+# end of gimp-text-tool options

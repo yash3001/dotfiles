@@ -1,0 +1,92 @@
+12:32:59 PM.242: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+12:32:59 PM.242: CPU Speed: 800.099MHz
+12:32:59 PM.243: Physical Cores: 4, Logical Cores: 8
+12:32:59 PM.243: Physical Memory: 7871MB Total, 2112MB Free
+12:32:59 PM.243: Kernel Version: Linux 5.10.7-arch1-1
+12:32:59 PM.243: Distribution: "Arch Linux" Unknown
+12:32:59 PM.244: Session Type: tty
+12:32:59 PM.245: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+12:32:59 PM.278: Portable mode: false
+12:32:59 PM.887: OBS 26.1.0-2 (linux)
+12:32:59 PM.887: ---------------------------------
+12:32:59 PM.888: ---------------------------------
+12:32:59 PM.888: audio settings reset:
+12:32:59 PM.888: 	samples per sec: 48000
+12:32:59 PM.888: 	speakers:        2
+12:32:59 PM.926: ---------------------------------
+12:32:59 PM.926: Initializing OpenGL...
+12:33:00 PM.126: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+12:33:00 PM.126: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.3.2, shading language 4.60
+12:33:00 PM.480: ---------------------------------
+12:33:00 PM.481: video settings reset:
+12:33:00 PM.481: 	base resolution:   1920x1080
+12:33:00 PM.481: 	output resolution: 1920x1080
+12:33:00 PM.481: 	downscale filter:  Bicubic
+12:33:00 PM.481: 	fps:               60/1
+12:33:00 PM.481: 	format:            NV12
+12:33:00 PM.481: 	YUV mode:          709/Partial
+12:33:00 PM.481: NV12 texture support not available
+12:33:00 PM.521: Audio monitoring device:
+12:33:00 PM.521: 	name: Default
+12:33:00 PM.521: 	id: default
+12:33:00 PM.522: ---------------------------------
+12:33:00 PM.568: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:33:00 PM.580: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+12:33:00 PM.954: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:33:00 PM.954: No blackmagic support
+12:33:01 PM.037: v4l2loopback not installed, virtual camera disabled
+12:33:01 PM.054: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+12:33:01 PM.054: 
+12:33:01 PM.054: FFMPEG VAAPI supported
+12:33:01 PM.510: VLC found, VLC video source enabled
+12:33:01 PM.510: ---------------------------------
+12:33:01 PM.510:   Loaded Modules:
+12:33:01 PM.510:     vlc-video.so
+12:33:01 PM.510:     text-freetype2.so
+12:33:01 PM.510:     rtmp-services.so
+12:33:01 PM.510:     obs-x264.so
+12:33:01 PM.510:     obs-transitions.so
+12:33:01 PM.510:     obs-outputs.so
+12:33:01 PM.510:     obs-libfdk.so
+12:33:01 PM.510:     obs-filters.so
+12:33:01 PM.510:     obs-ffmpeg.so
+12:33:01 PM.510:     linux-v4l2.so
+12:33:01 PM.510:     linux-pulseaudio.so
+12:33:01 PM.510:     linux-jack.so
+12:33:01 PM.510:     linux-decklink.so
+12:33:01 PM.510:     linux-capture.so
+12:33:01 PM.510:     linux-alsa.so
+12:33:01 PM.510:     image-source.so
+12:33:01 PM.510:     frontend-tools.so
+12:33:01 PM.510:     decklink-ouput-ui.so
+12:33:01 PM.510:     decklink-captions.so
+12:33:01 PM.510: ---------------------------------
+12:33:01 PM.539: ==== Startup complete ===============================================
+12:33:01 PM.646: All scene data cleared
+12:33:01 PM.646: ------------------------------------------------
+12:33:01 PM.704: pulse-input: Server name: 'pulseaudio 14.1'
+12:33:01 PM.705: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+12:33:01 PM.706: pulse-input: Started recording from 'bluez_sink.E8_07_BF_C3_24_53.a2dp_sink.monitor'
+12:33:01 PM.706: [Loaded global audio device]: 'Desktop Audio'
+12:33:01 PM.707: pulse-input: Server name: 'pulseaudio 14.1'
+12:33:01 PM.708: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+12:33:01 PM.708: pulse-input: Started recording from 'bluez_sink.E8_07_BF_C3_24_53.a2dp_sink.monitor'
+12:33:01 PM.709: [Loaded global audio device]: 'Mic/Aux'
+12:33:01 PM.711: xshm-input: Geometry 1920x1080 @ 0,0
+12:33:01 PM.735: Switched to scene 'Scene'
+12:33:01 PM.773: ------------------------------------------------
+12:33:01 PM.773: Loaded scenes:
+12:33:01 PM.774: - scene 'Scene':
+12:33:01 PM.849:     - source: 'Screen Capture (XSHM)' (xshm_input)
+12:33:01 PM.849: ------------------------------------------------
+12:33:02 PM.273: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+12:33:02 PM.273: 
+12:33:19 PM.710: ==== Shutting down ==================================================
+12:33:19 PM.768: pulse-input: Stopped recording from 'bluez_sink.E8_07_BF_C3_24_53.a2dp_sink.monitor'
+12:33:19 PM.769: pulse-input: Got 888 packets with 795648 frames
+12:33:19 PM.779: pulse-input: Stopped recording from 'bluez_sink.E8_07_BF_C3_24_53.a2dp_sink.monitor'
+12:33:19 PM.779: pulse-input: Got 889 packets with 796544 frames
+12:33:19 PM.780: All scene data cleared
+12:33:19 PM.781: ------------------------------------------------
+12:33:19 PM.787: Failed to fetch parent window geometry!
+12:33:19 PM.802: Failed to fetch parent window geometry!

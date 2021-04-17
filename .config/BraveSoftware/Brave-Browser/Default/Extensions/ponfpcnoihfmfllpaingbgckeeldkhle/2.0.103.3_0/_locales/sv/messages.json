@@ -1,0 +1,569 @@
+{
+   "add": {
+      "message": "Lägg till"
+   },
+   "add_to_whitelist": {
+      "message": "Add to whitelist"
+   },
+   "ads_management": {
+      "message": "Ads management"
+   },
+   "allow_ads_from_subs": {
+      "message": "Do not block ads for subscribed channels"
+   },
+   "appearance": {
+      "message": "Appearance"
+   },
+   "auto_apply_video_filters": {
+      "message": "Automatically apply the video filters"
+   },
+   "auto_cinema_mode": {
+      "message": "Aktivera automatiskt bioläge"
+   },
+   "auto_enable_theater_mode": {
+      "message": "Aktivera automatiskt YouTube's “Teaterläge”"
+   },
+   "auto_execute_script": {
+      "message": "Kör skriptet automatiskt när YouTube laddas i fliken"
+   },
+   "auto_expand_description": {
+      "message": "Expandera automatiskt videobeskrivningen"
+   },
+   "auto_expand_player": {
+      "message": "Förstora automatiskt videospelaren"
+   },
+   "auto_hide_cards_end_screens": {
+      "message": "Automatically hide info cards and end screens"
+   },
+   "auto_select_quality": {
+      "message": "Spela upp videos automatiskt i min önskade kvalitet"
+   },
+   "auto_sort_comments": {
+      "message": "Sortera automatiskt kommentarer från nyast till äldst"
+   },
+   "autoplay": {
+      "message": "Autoplay"
+   },
+   "backup": {
+      "message": "Säkerhetskopia"
+   },
+   "block_ads": {
+      "message": "Block ads"
+   },
+   "block_hfr_formats": {
+      "message": "Force the use of standard frame rates formats (24, 25, 30 FPS) instead of high frame rates formats (48, 50, 60 FPS)"
+   },
+   "block_webm_formats": {
+      "message": "Force the use of the MP4 format and the AVC codec (H.264) instead of the WebM format and the VP9 codec (maximum resolution 1080p60 HD)"
+   },
+   "boost_volume": {
+      "message": "Öka volymen"
+   },
+   "bottom_left_corner": {
+      "message": "Nederst till vänster"
+   },
+   "bottom_right_corner": {
+      "message": "Nederst till höger"
+   },
+   "brightness": {
+      "message": "Ljusstyrka:"
+   },
+   "cards_end_screens_control_info": {
+      "message": "Tryck på denna knappen för att visa/dölja annoteringar."
+   },
+   "center_video_player": {
+      "message": "Center the video player within the viewport"
+   },
+   "cinema_mode": {
+      "message": "Bioläge"
+   },
+   "cinema_mode_control_info": {
+      "message": "Tryck på denna knappen för att aktivera/inaktivera bioläge."
+   },
+   "cinema_mode_toggle_size": {
+      "message": "Förstora automatiskt videospelaren när bioläget är aktiverat"
+   },
+   "color": {
+      "message": "Färg:"
+   },
+   "color_inversion": {
+      "message": "Färginversion:"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Configure keyboard shortcuts"
+   },
+   "contrast": {
+      "message": "Kontrast:"
+   },
+   "control_speed": {
+      "message": "Control the playback speed with the mouse wheel when the mouse cursor is over the video player and the “Control” key (Ctrl) is pressed"
+   },
+   "control_speed_mouse_button": {
+      "message": "Only when the right mouse button is pressed"
+   },
+   "control_volume": {
+      "message": "Ändra volymnivån med mushjulet när muspekaren befinner sig över videospelaren"
+   },
+   "control_volume_mouse_button": {
+      "message": "Endast när höger musknapp trycks in"
+   },
+   "controls": {
+      "message": "Controls"
+   },
+   "copy_to_clipboard": {
+      "message": "Copy to clipboard"
+   },
+   "custom_script": {
+      "message": "Eget skript"
+   },
+   "custom_script_control_info": {
+      "message": "Tryck på denna knappen för att köra egna skript."
+   },
+   "custom_script_instructions": {
+      "message": "Skriv eller klistra in din JavaScript-kod här och spara den på knappen här nedan. Tryck sedan på knappen ”Eget skript” på verktygsraden när du vill köra det."
+   },
+   "custom_script_warning": {
+      "message": "Av säkerhetsskäl ska du endast använda kod du förstår eller kod som är skriven av en utvecklare du litar på."
+   },
+   "custom_theme": {
+      "message": "Eget tema"
+   },
+   "custom_theme_instructions": {
+      "message": "Skriv eller klistra in din CSS-kod här och spara den på knappen här nedan."
+   },
+   "decrease_playback_speed": {
+      "message": "Decrease the playback speed"
+   },
+   "default_playback_speed": {
+      "message": "Standard uppspelningshastighet:"
+   },
+   "default_volume_level": {
+      "message": "Standard volymnivå:"
+   },
+   "description": {
+      "message": "Massor av funktioner för att förbättra din användarupplevelse på YouTube."
+   },
+   "detailed_description": {
+      "message": "Built to get the most out of YouTube, this extension comes packed with all sorts of features that allow you, among other things, to manage ads as you wish, control the playback speed and the volume level with your mouse wheel, automate repetitive tasks such as selecting the appropriate playback quality, configure dozens of keyboard shortcuts to control YouTube like a pro, and much more... Give it a try! But be aware that you will never want to use YouTube without it after that ; )\n\nProudly recommended by Mozilla, this extension does not collect data and respects users' privacy.\n\nYouTube is a trademark of Google LLC. Use of this trademark is subject to Google Permissions."
+   },
+   "disable_autoplay": {
+      "message": "Inaktivera automatisk uppspelning"
+   },
+   "donate": {
+      "message": "Donera"
+   },
+   "execute_custom_script": {
+      "message": "Execute the custom script"
+   },
+   "expand": {
+      "message": "Expand"
+   },
+   "expand_shrink_video_player": {
+      "message": "Expand or shrink the video player"
+   },
+   "expanded_player_viewport": {
+      "message": "Använd hela visningsporten för den förstorade videospelaren när bioläget är inaktiverat"
+   },
+   "export": {
+      "message": "Exportera"
+   },
+   "export_instructions": {
+      "message": "Skapa en ny textfil och klistra sedan in koden här under utan att ändra den."
+   },
+   "flip_horizontally": {
+      "message": "Flip horizontally"
+   },
+   "flip_horizontally_control_info": {
+      "message": "Click to flip the video horizontally"
+   },
+   "flip_vertically": {
+      "message": "Flip vertically"
+   },
+   "flip_vertically_control_info": {
+      "message": "Click to flip the video vertically"
+   },
+   "flip_video_horizontally": {
+      "message": "Flip the video horizontally"
+   },
+   "flip_video_vertically": {
+      "message": "Flip the video vertically"
+   },
+   "focus_video_player": {
+      "message": "Set focus on the video player"
+   },
+   "gaussian_blur": {
+      "message": "Gaussisk oskärpa:"
+   },
+   "grayscale": {
+      "message": "Gråskala:"
+   },
+   "hide_chat": {
+      "message": "Hide chat"
+   },
+   "hide_comments": {
+      "message": "Hide comments"
+   },
+   "hide_related_videos": {
+      "message": "Hide related videos"
+   },
+   "hue_rotation": {
+      "message": "Nyansrotation:"
+   },
+   "ignore_playlists": {
+      "message": "Pausa inte videos i spellistor"
+   },
+   "ignore_pop_up_player": {
+      "message": "Ignore the pop-up player"
+   },
+   "import": {
+      "message": "Importera"
+   },
+   "import_error": {
+      "message": "Säkerhetskopian du importerade är inte giltig!"
+   },
+   "import_instructions": {
+      "message": "Klistra in innehållet av säkerhetskopian och tryck på knappen ”Importera”. Om allt importerades rätt kommer sidan att automatiskt laddas om."
+   },
+   "increase_playback_speed": {
+      "message": "Increase the playback speed"
+   },
+   "keyboard_shortcuts": {
+      "message": "Tangentbordsgenvägar"
+   },
+   "keyboard_shortcuts_control_info": {
+      "message": "Click to display the list of all the keyboard shortcuts for YouTube (external page)"
+   },
+   "keyboard_shortcuts_page": {
+      "message": "Display all the keyboard shortcuts for YouTube"
+   },
+   "launch_mini_player": {
+      "message": "Launch a mini player when scrolling down to read comments"
+   },
+   "locale_code": {
+      "message": "sv"
+   },
+   "locale_dir": {
+      "message": "ltr"
+   },
+   "loop": {
+      "message": "Loop"
+   },
+   "loop_control_info": {
+      "message": "Tryck på denna knappen för att aktivera/inaktivera upprepning av videon."
+   },
+   "loop_end": {
+      "message": "End:"
+   },
+   "loop_start": {
+      "message": "Start:"
+   },
+   "message": {
+      "message": "Meddelande"
+   },
+   "mini_player": {
+      "message": "Mini player"
+   },
+   "mini_player_position": {
+      "message": "Mini player position:"
+   },
+   "mini_player_size": {
+      "message": "Mini player size:"
+   },
+   "not_interested_control_info": {
+      "message": "Tryck på denna knappen för att ta bort annonser."
+   },
+   "not_now": {
+      "message": "Inte nu"
+   },
+   "opacity": {
+      "message": "Opacitet:"
+   },
+   "open_options_page": {
+      "message": "Open the options page"
+   },
+   "options": {
+      "message": "Alternativ"
+   },
+   "override_playback_speeds": {
+      "message": "Åsidosätt standard uppspelningshastigheter"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ har uppdaterats, sidan måste därför laddas om."
+   },
+   "pause_videos": {
+      "message": "Pausa bakgrundsvideos när en videouppspelning startar i en förgrundsflik"
+   },
+   "playback_quality": {
+      "message": "Playback quality"
+   },
+   "playback_speed": {
+      "message": "Playback speed"
+   },
+   "playlists": {
+      "message": "Playlists:"
+   },
+   "playlists_full_screen": {
+      "message": "Playlists (full screen):"
+   },
+   "pop_up_player": {
+      "message": "Pop-up player"
+   },
+   "pop_up_player_control_info": {
+      "message": "Click or right-click to watch with the pop-up player"
+   },
+   "pop_up_player_embeds": {
+      "message": "Pop-up player and embedded videos:"
+   },
+   "pop_up_player_embeds_full_screen": {
+      "message": "Pop-up player and embedded videos (full screen):"
+   },
+   "pop_up_player_size": {
+      "message": "Pop-up player size:"
+   },
+   "prevent_autoplay": {
+      "message": "Pausa automatiskt videos som öppnas i bakgrundsflikar"
+   },
+   "prevent_autoplay_foreground_tab": {
+      "message": "Pausa även videos som öppnas i förgrundsflikar"
+   },
+   "preview": {
+      "message": "Förhandgranska"
+   },
+   "rate": {
+      "message": "Betygsätt"
+   },
+   "rate_extension": {
+      "message": "Rate your experience with Enhancer for YouTube™."
+   },
+   "remove": {
+      "message": "Ta bort"
+   },
+   "remove_ads": {
+      "message": "Ta bort annonser"
+   },
+   "remove_from_whitelist": {
+      "message": "Remove from whitelist"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "Vänd mushjulets riktning för att styra uppspelningshastigheten och volymen"
+   },
+   "reverse_playlist": {
+      "message": "Reverse playlist"
+   },
+   "reverse_playlist_control_info": {
+      "message": "Click or right-click to watch a playlist in reverse order with the pop-up player"
+   },
+   "reverse_playlist_order": {
+      "message": "Reverse the playlist order"
+   },
+   "saturation": {
+      "message": "Mättnad:"
+   },
+   "save": {
+      "message": "Spara"
+   },
+   "screenshot": {
+      "message": "Screenshot"
+   },
+   "screenshot_control_info": {
+      "message": "Click to take a screenshot of the video"
+   },
+   "select_default_playback_speed": {
+      "message": "Select the default playback speed"
+   },
+   "select_normal_playback_speed": {
+      "message": "Select the normal playback speed"
+   },
+   "select_quality_1080p": {
+      "message": "Select the playback quality “1080p”"
+   },
+   "select_quality_1440p": {
+      "message": "Select the playback quality “1440p”"
+   },
+   "select_quality_144p": {
+      "message": "Select the playback quality “144p”"
+   },
+   "select_quality_2160p": {
+      "message": "Select the playback quality “2160p”"
+   },
+   "select_quality_240p": {
+      "message": "Select the playback quality “240p”"
+   },
+   "select_quality_2880p": {
+      "message": "Select the playback quality “2880p”"
+   },
+   "select_quality_360p": {
+      "message": "Select the playback quality “360p”"
+   },
+   "select_quality_4320p": {
+      "message": "Select the playback quality “4320p”"
+   },
+   "select_quality_480p": {
+      "message": "Select the playback quality “480p”"
+   },
+   "select_quality_720p": {
+      "message": "Select the playback quality “720p”"
+   },
+   "select_quality_auto": {
+      "message": "Select the playback quality “Auto”"
+   },
+   "select_quality_full_screen": {
+      "message": "Select a different playback quality when entering the full screen mode"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "shrink": {
+      "message": "Shrink"
+   },
+   "size_control_info": {
+      "message": "Tryck på denna knappen för att ändra storleken på videospelaren. Tryck med höger musknapp på denna knappen för att centrera videospelaren i visningsområde."
+   },
+   "skip_ads": {
+      "message": "Skip ads"
+   },
+   "skip_remove_ads": {
+      "message": "Skip or remove ads"
+   },
+   "speed": {
+      "message": "Hastighet"
+   },
+   "speed_control_info": {
+      "message": "Använd mushjulet till att ändra uppspelningshastigheten när muspekaren är över denna knappen. Tryck för att återgå till normal uppspelningshastighet."
+   },
+   "speed_minus_control_info": {
+      "message": "Tryck på denna knappen för att sänka uppspelningshastigheten."
+   },
+   "speed_plus_control_info": {
+      "message": "Tryck på denna knappen för att höja uppspelningshastigheten."
+   },
+   "speed_variation": {
+      "message": "Hastighetsvariation när mushjulet roterar eller när hastighetsknapparna “-” och “+” är intryckta:"
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "stop_control_info": {
+      "message": "Click to stop the video"
+   },
+   "stop_video": {
+      "message": "Stop the video"
+   },
+   "stop_videos": {
+      "message": "Inaktivera förladdning när videos pausas automatiskt"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "switch_back_previous_quality": {
+      "message": "Switch back to the previous playback quality when exiting the full screen mode"
+   },
+   "take_screenshot": {
+      "message": "Take a screenshot of the video"
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "theme_custom_theme": {
+      "message": "Theme: Custom theme"
+   },
+   "theme_youtube_dark": {
+      "message": "Theme: YouTube™ (Dark)"
+   },
+   "theme_youtube_deep_dark": {
+      "message": "Theme: YouTube-DeepDark"
+   },
+   "theme_youtube_deep_dark_custom": {
+      "message": "Theme: YouTube-DeepDark (Custom)"
+   },
+   "theme_youtube_light": {
+      "message": "Theme: YouTube™ (Light)"
+   },
+   "toggle_cards_end_screens": {
+      "message": "Toggle cards and end screens visibility"
+   },
+   "toggle_cinema_mode": {
+      "message": "Toggle the cinema mode"
+   },
+   "toggle_comments_visibility": {
+      "message": "Toggle comments visibility"
+   },
+   "toggle_loop": {
+      "message": "Toggle the loop mode"
+   },
+   "toggle_pip_mode": {
+      "message": "Toggle the Picture-in-Picture mode"
+   },
+   "toggle_related_videos_visibility": {
+      "message": "Toggle related videos visibility"
+   },
+   "toggle_video_filters": {
+      "message": "Toggle the video filters"
+   },
+   "toggle_visibility": {
+      "message": "Toggle cards/end screens visibility"
+   },
+   "toggle_volume_booster": {
+      "message": "Toggle the volume booster"
+   },
+   "top_left_corner": {
+      "message": "Överst till vänster"
+   },
+   "top_right_corner": {
+      "message": "Överst till höger"
+   },
+   "translate": {
+      "message": "Översätt"
+   },
+   "variant": {
+      "message": "Variant:"
+   },
+   "video_codecs_and_formats": {
+      "message": "Video codecs and formats"
+   },
+   "video_filters": {
+      "message": "Video filters"
+   },
+   "video_filters_control_info": {
+      "message": "Tryck på denna knappen för att aktivera/inaktivera filter."
+   },
+   "video_player": {
+      "message": "Videospelare"
+   },
+   "videos": {
+      "message": "Videos:"
+   },
+   "videos_full_screen": {
+      "message": "Videos (full screen):"
+   },
+   "volume": {
+      "message": "Volume"
+   },
+   "volume_booster_control_info": {
+      "message": "Tryck på denna knappen för att aktivera/inaktivera volymökningen."
+   },
+   "volume_booster_control_info_firefox": {
+      "message": "Click to toggle the volume booster (Firefox bug: when the volume booster has been activated the playback speed cannot be modified and a page reload is required in order to fix the issue [more info: https://bugzilla.mozilla.org/show_bug.cgi?id=1519707 ])"
+   },
+   "volume_booster_level": {
+      "message": "Volume booster level:"
+   },
+   "volume_variation": {
+      "message": "Volymändring när mushjulet roteras:"
+   },
+   "watch_pop_up_player": {
+      "message": "Watch with the pop-up player"
+   },
+   "whitelist_control_info": {
+      "message": "Click to add/remove the channel to/from the whitelist"
+   },
+   "whitelist_shortcut": {
+      "message": "Add/remove the channel to/from the whitelist"
+   },
+   "whitelisted_channels": {
+      "message": "Vitlistade kanaler:"
+   }
+}

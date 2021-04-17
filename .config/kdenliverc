@@ -1,0 +1,130 @@
+[DownloadDialog Settings]
+eDP1 Height 1080=494
+eDP1 Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=2020-12-13 01-15-33.mkv,file:$HOME/Downloads/d/youtube/music/calm_music_dawm.opus,file:$HOME/2020-12-26 18-51-12.mkv,file:$HOME/2020-12-26 19-08-08.mkv,file:$HOME/Downloads/d/youtube/effects/YouTube like subscribe bell icon buttons green screen _ End Screen-S1Hb-wrwFxA.mkv,file:$HOME/Downloads/d/youtube/intros/intro8.mkv,file:$HOME/Downloads/d/youtube/intros/extro3.mkv,file:$HOME/Downloads/d/youtube/music/🛀 Calm Music (No Copyright)  'Dawn' by Sappheiros 🇺🇸-pWAP7fIwGnI.webm,file:$HOME/Downloads/calm_music.mp3,file:$HOME/Downloads/d/youtube/music/Alan Walker - Force [NCS Release]-xshEZzpS4CQ.opus,file:$HOME/Downloads/d/youtube/music/censor-beep-2.mp3,file:$HOME/Downloads/d/youtube/music/TonyZ - Road So Far (Inspired By Alan Walker) [NCN Release]-MVMIwIJtMdU.opus,file:$HOME/Downloads/d/youtube/music/Adventures - A Himitsu · [Free Copyright-safe Music]-MkNeIUgNPQ8.opus,file:$HOME/2020-12-14 20-29-13.mkv,file:$HOME/2020-12-13 22-50-07.mkv
+Recent URLs[$e]=file:$HOME/Desktop/,file:$HOME/Videos/titles/,file:$HOME/Downloads/,file:$HOME/,file:$HOME/Downloads/d/youtube/intros/,file:$HOME/Downloads/d/youtube/music/,file:$HOME/Downloads/d/youtube/,file:$HOME/Downloads/d/,file:$HOME/Downloads/d/youtube/effects/,file:///home/
+detailViewIconSize=16
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAdkAAACb/wBAAAACvsAAAAUAHMAYwByAGUAZQBuAGcAcgBhAGIAAAAAAP////8AAABgAQAAA/sAAAAaAGEAdQBkAGkAbwBzAHAAZQBjAHQAcgB1AG0AAAAAAP////8AAABkAQAAA/wAAAAAAAABtgAAAIsA////+gAAAAABAAAAA/sAAAAWAHAAcgBvAGoAZQBjAHQAXwBiAGkAbgEAAAAA/////wAAAFsBAAAD+wAAAB4AYwBsAGkAcABfAHAAcgBvAHAAZQByAHQAaQBlAHMBAAAAAP////8AAABXAQAAA/sAAAAYAHUAbgBkAG8AXwBoAGkAcwB0AG8AcgB5AQAAAAD/////AAAAWwEAAAP8AAABtwAAAlkAAAEkAP////oAAAACAgAAAAX7AAAAFgBlAGYAZgBlAGMAdABfAGwAaQBzAHQBAAAAAP////8AAAADAQAAAvsAAAAeAHQAcgBhAG4AcwBpAHQAaQBvAG4AXwBsAGkAcwB0AQAAAAD/////AAAAAwEAAAL7AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAAA/////wAAAHYBAAAC+wAAAA4AbABpAGIAcgBhAHIAeQEAAAAdAAABhQAAAJIBAAAC+wAAAAoAbQBpAHgAZQByAQAAAAD/////AAAAqwEAAAL8AAAEEQAAA1MAAAFEAP////oAAAAAAgAAAAP7AAAAHgBwAHIAbwBqAGUAYwB0AF8AbQBvAG4AaQB0AG8AcgEAAAC/AAABLAAAAMsBAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAADLAQAAAvsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AQAAAAD/////AAAAhgEAAAL7AAAAFgB2AGUAYwB0AG8AcgBzAGMAbwBwAGUAAAAAAP////8AAAEeAQAAA/sAAAAQAHcAYQB2AGUAZgBvAHIAbQAAAAAA/////wAAAJ4BAAAD+wAAABQAcgBnAGIAXwBwAGEAcgBhAGQAZQAAAAAA/////wAAAJcBAAAD+wAAABIAaABpAHMAdABvAGcAcgBhAG0AAAAAAP////8AAAFBAQAAA/sAAAASAFMAdQBiAHQAaQB0AGwAZQBzAAAAAAD/////AAAA9AEAAAMAAAdkAAABWgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP1 Height 1080=1015
+eDP1 Width 1920=1920
+eDP1 Window-Maximized 1080x1920=true
+eDP1 XPosition=14
+eDP1 YPosition=35
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME/Downloads/d/youtube/music/,$HOME/,$HOME/Downloads/d/youtube/effects/
+KdenliveProjectsFolder[$e]=$HOME/Videos,$HOME/Documents
+
+[Recent Files]
+File1[$e]=$HOME/Videos/noads_amongus.kdenlive
+File2[$e]=$HOME/Videos/fearless_8d.kdenlive
+File3[$e]=$HOME/Videos/faded_8d.kdenlive
+File4[$e]=$HOME/Videos/ngrok.kdenlive
+File5[$e]=$HOME/Videos/ngrok_hacking.kdenlive
+File6[$e]=$HOME/Videos/meetgod.kdenlive
+File7[$e]=$HOME/Videos/kali_linux.kdenlive
+Name1[$e]=noads_amongus.kdenlive
+Name2[$e]=fearless_8d.kdenlive
+Name3[$e]=faded_8d.kdenlive
+Name4[$e]=ngrok.kdenlive
+Name5[$e]=ngrok_hacking.kdenlive
+Name6[$e]=meetgod.kdenlive
+Name7[$e]=kali_linux.kdenlive
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+logScale=false
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[TitleWidget]
+background_alpha=0
+background_color=0,0,0
+dialog_geometry=AdnQywADAAAAAAG8AAAArwAABhcAAAOGAAABvQAAALAAAAYWAAADhQAAAAAAAAAAB4AAAAG9AAAAsAAABhYAAAOF
+font_color=255,255,255
+font_family=InconsolataLGC Nerd Font Mono,-1,80,5,75,1,0,0,0,0
+font_italic=true
+font_outline=25
+font_outline_color=0,0,0
+font_pixel_size=80
+font_underlined=false
+font_weight=75
+rect_background_alpha=0
+rect_background_color=255,0,0,0
+rect_foreground_alpha=255
+rect_foreground_color=206,0,0
+rect_line_width=10
+use_grid=false
+
+[UiSettings]
+ColorScheme=Breeze Dark
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAAMAAAAAYAAAAiAAAABQAAAEkAAAAEAAAALAAAAAMAAAAzAAAAAgAAAFkAAAABAAAAMQAAAbQAAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAABtAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAAA4
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultprojectfolder[$e]=$HOME/Videos
+mltpath[$e]=/usr/share/mlt/profiles
+rendererpath[$e]=/usr/bin/melt
+
+[timeline]
+trackheight=69
+
+[titles]
+titlerShowbg=true
+
+[unmanaged]
+default_profile=atsc_1080p_25
+defaultrescaleheight=540
+defaultrescalewidth=960
+force_breeze=true
+monitor_audio=false
+previewScaling=0
+producerslist=decklink,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,blipflash,count,framebuffer,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,qimage,qtext,kdenlivetitle,vorbis,pgm,slowmotion,pango,pixbuf,avformat,avformat-novalidate,xml,xml-string,xml-nogl
+use_dark_breeze=true
+widgetstyle=Default
+
+[version]
+version=20.12.0

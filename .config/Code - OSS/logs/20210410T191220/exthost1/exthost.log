@@ -1,0 +1,121 @@
+[2021-04-10 19:12:36.707] [exthost] [info] extension host started
+[2021-04-10 19:12:37.129] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"extensionId":{"value":"aaron-bond.better-comments","_lower":"aaron-bond.better-comments"},"activationEvent":"onLanguage:plaintext"}
+[2021-04-10 19:12:37.129] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/aaron-bond.better-comments-2.1.0/out/extension
+[2021-04-10 19:12:37.499] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd {"startup":false,"extensionId":{"value":"llvm-vs-code-extensions.vscode-clangd","_lower":"llvm-vs-code-extensions.vscode-clangd"},"activationEvent":"onLanguage:cpp"}
+[2021-04-10 19:12:37.499] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.11/out/src/extension
+[2021-04-10 19:12:46.867] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-04-10 19:12:46.867] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-04-10 19:12:46.957] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-10 19:12:46.957] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-04-10 19:12:47.097] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-04-10 19:12:47.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-04-10 19:12:57.033] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-04-10 19:12:57.034] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/vscodevim.vim-1.19.2/out/extension
+[2021-04-10 19:12:57.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-04-10 19:12:57.533] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-04-10 19:12:57.853] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-04-10 19:12:57.853] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-04-10 19:12:58.246] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-04-10 19:12:58.246] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/testing-editor-contributions/dist/extension.js
+[2021-04-10 19:12:58.470] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-04-10 19:12:58.470] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/yash/.vscode-oss/extensions/esbenp.prettier-vscode-6.3.1/dist/extension
+[2021-04-10 19:12:59.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-10 19:12:59.573] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-04-10 19:13:00.979] [exthost] [info] eager extensions activated
+[2021-04-10 19:13:01.169] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-04-10 19:13:01.169] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-04-10 19:13:05.750] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:13:05.750] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:13:08.122] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:13:08.122] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:13:08.122] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:13:08.122] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:13:08.555] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:13:08.555] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:15:46.538] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:15:46.538] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:20:19.249] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:20:19.249] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:20:19.415] [exthost] [warning] llvm-vs-code-extensions.vscode-clangd - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+[2021-04-10 19:21:43.666] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:21:43.666] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-10 19:25:12.308] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:25:12.308] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:25:25.323] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:25:25.323] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:27:32.342] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:27:32.342] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:28:08.259] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:28:08.259] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:28:21.106] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:28:21.106] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:28:32.370] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:28:32.370] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:28:39.776] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:28:39.776] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:29:34.972] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:29:34.972] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:29:45.043] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:29:45.043] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:30:24.905] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:30:24.905] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:33:25.522] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:33:25.522] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:33:45.672] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:33:45.672] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:39:46.162] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:39:46.162] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:41:33.864] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:41:33.864] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:41:40.043] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:41:40.043] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:42:00.690] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:42:00.690] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-10 19:42:12.315] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:42:12.315] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:42:13.504] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:42:13.504] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:42:19.001] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:42:19.001] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:42:23.182] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:42:23.182] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:42:55.012] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:42:55.012] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:43:51.592] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:43:51.592] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 19:58:45.570] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 19:58:45.570] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 20:02:55.368] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 20:02:55.368] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-10 20:06:05.024] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-10 20:06:05.025] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 15:15:17.127] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 15:15:17.127] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 15:15:17.432] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 15:15:17.432] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 15:15:25.370] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 15:15:25.370] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 15:17:20.632] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-04-11 15:17:20.634] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-04-11 15:17:20.743] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-04-11 15:17:20.743] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-04-11 15:17:20.876] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-04-11 15:17:20.876] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-04-11 15:18:33.843] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 15:18:33.844] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 17:15:57.580] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 17:15:57.580] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 17:16:15.096] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 17:16:15.096] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 17:16:15.953] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 17:16:15.953] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-11 17:18:28.648] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 17:18:28.649] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-11 17:18:48.204] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 17:18:48.204] [exthost] [error] {"_isCancelled":false,"_emitter":{"_disposed":false,"_listeners":{"_first":{},"_last":{},"_size":0}}}
+[2021-04-11 17:18:48.205] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 17:18:48.205] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 17:43:49.550] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2021-04-11 17:43:49.550] [exthost] [error] {"_isCancelled":true,"_emitter":null}
+[2021-04-11 17:44:17.538] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-11 17:44:18.582] [exthost] [info] exiting with code 0

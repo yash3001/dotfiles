@@ -1,0 +1,1045 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/yash/Desktop/d/github_projects/competitive_programming
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_recursive.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_recursive.cpp
+> git cat-file -s 45dd9379580871f28f4b2fd44d6dc3a0e311f700
+> git check-ignore -v -z --stdin
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s bb121aff7035eda36f78c5cd331c6cab2be61105
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s bb121aff7035eda36f78c5cd331c6cab2be61105
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git cat-file -s c7e6c5e03d671700ae9dd1054c49dbe2e53c328e
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git cat-file -s 44d2c07a55e80aa2258ab495241d2b05c8eabdbd
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_top_down.cpp
+> git cat-file -s 708af16f227290eb16a2d3d19bed810be0a625ee
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git cat-file -s 5d7ce12e7095ea5b2be671c49a9276171c27a4e8
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git cat-file -s 5d7ce12e7095ea5b2be671c49a9276171c27a4e8
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git cat-file -s 5d7ce12e7095ea5b2be671c49a9276171c27a4e8
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git cat-file -s 5d7ce12e7095ea5b2be671c49a9276171c27a4e8
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git cat-file -s 5d7ce12e7095ea5b2be671c49a9276171c27a4e8
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_top_down.cpp
+> git cat-file -s 5d7ce12e7095ea5b2be671c49a9276171c27a4e8
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :codechef/Practice/sort_elements_by_frequency.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/sort_elements_by_frequency.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :codechef/Practice/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/input.txt
+> git show --textconv :codechef/Practice/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/mahasena.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/mahasena.cpp
+> git cat-file -s ac2b8dd9b045ac2b661d7b7e10f6db35a7e3dd30
+> git show --textconv :codechef/Practice/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/sort_elements_by_frequency.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/sort_elements_by_frequency.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/sort_elements_by_frequency.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/sort_elements_by_frequency.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/sort_elements_by_frequency.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/sort_elements_by_frequency.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/sort_elements_by_frequency.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/sort_elements_by_frequency.cpp
+> git show --textconv :codechef/Practice/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/output.txt
+> git show --textconv :codechef/Practice/havoc_quesion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/havoc_quesion.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/Practice/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/Practice/output.txt
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/01_knapsack_memoization.cpp
+> git cat-file -s 092ecedd1ae625f72aa2513d7f9341e3479b02cf
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git cat-file -s c7e6c5e03d671700ae9dd1054c49dbe2e53c328e
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git cat-file -s 44d2c07a55e80aa2258ab495241d2b05c8eabdbd
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion copy.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion copy.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion_memoization.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git cat-file -s c7e6c5e03d671700ae9dd1054c49dbe2e53c328e
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git cat-file -s 44d2c07a55e80aa2258ab495241d2b05c8eabdbd
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git cat-file -s 44d2c07a55e80aa2258ab495241d2b05c8eabdbd
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_recursion.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git cat-file -s 44d2c07a55e80aa2258ab495241d2b05c8eabdbd
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_memoization.cpp
+> git cat-file -s 44d2c07a55e80aa2258ab495241d2b05c8eabdbd
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization copy.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization copy.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_top_down.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/subset_sum_problem/subset_sum_problem_recursion.cpp
+> git cat-file -s c7e6c5e03d671700ae9dd1054c49dbe2e53c328e
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_top_down.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/equal_sum_partition/equal_sum_partition_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/generate_subsets.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/generate_subsets.cpp
+> git cat-file -s 55ee8387de960f99e61c72805b743cbcd89b8506
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/01_knapsack/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/01_knapsack/problem.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/1. 01_knapsack/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/1. 01_knapsack/problem.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git config --get commit.template
+> git cat-file -s bd88d5ad3157df350678eaf9f16f9ed9701be767
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git cat-file -s bd88d5ad3157df350678eaf9f16f9ed9701be767
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/problem.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/3. Equal Sum Partition/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/3. Equal Sum Partition/problem.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/problem.txt
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/problem.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/problem.txt
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/1. 01 Knapsack/problem.txt
+> git cat-file -s bd88d5ad3157df350678eaf9f16f9ed9701be767
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_recursion.cpp
+> git cat-file -s c7e6c5e03d671700ae9dd1054c49dbe2e53c328e
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_recursion.cpp
+> git cat-file -s c7e6c5e03d671700ae9dd1054c49dbe2e53c328e
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_recursion.cpp
+> git cat-file -s c7e6c5e03d671700ae9dd1054c49dbe2e53c328e
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion copy.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion copy.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion copy 2.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_recursion copy 2.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git cat-file -s 708af16f227290eb16a2d3d19bed810be0a625ee
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git cat-file -s 708af16f227290eb16a2d3d19bed810be0a625ee
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git cat-file -s 708af16f227290eb16a2d3d19bed810be0a625ee
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/2. Subset Sum Problem/subset_sum_problem_top_down.cpp
+> git cat-file -s 708af16f227290eb16a2d3d19bed810be0a625ee
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_memoization.cpp
+> git show --textconv :algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/algorithms/Dynamic_Programming/01_knapsack/4. Count Of Subset Sum With Given Sum/count_of_subset_sums_top_down.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :love_babbar_450/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/love_babbar_450/input.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :love_babbar_450/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/love_babbar_450/output.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

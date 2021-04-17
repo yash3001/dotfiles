@@ -1,0 +1,18 @@
+00:00:03.367853 VirtualBox GUI VM Selector Window 6.1.18 r142142 linux.amd64 (Feb 16 2021 07:45:49) release log
+00:00:03.367860 Log opened 2021-04-07T18:54:30.859638000Z
+00:00:03.367862 Build Type: release
+00:00:03.367870 OS Product: Linux
+00:00:03.367874 OS Release: 5.11.11-arch1-1
+00:00:03.367879 OS Version: #1 SMP PREEMPT Tue, 30 Mar 2021 14:10:17 +0000
+00:00:03.367939 DMI Product Name: HP Laptop 15-bs1xx
+00:00:03.367966 DMI Product Version: Type1ProductConfigId
+00:00:03.367979 Firmware type: UEFI
+00:00:03.370437 Secure Boot: Disabled
+00:00:03.370597 Host RAM: 7871MB (7.6GB) total, 3940MB (3.8GB) available
+00:00:03.370608 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:03.370610 Process ID: 2017011
+00:00:03.370612 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:03.370727 Qt version: 5.15.2
+00:00:03.924884 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:09.349268 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 962x34 x 941x1029
+00:00:09.407250 GUI: UIMediumEnumerator: Medium-enumeration finished!

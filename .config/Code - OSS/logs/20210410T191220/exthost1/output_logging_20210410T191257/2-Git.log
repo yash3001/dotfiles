@@ -1,0 +1,480 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/yash/Desktop/d/github_projects/competitive_programming
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game copy.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game copy.cpp
+> git check-ignore -v -z --stdin
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 9d8f4fd8f722cd53378cb80c3bbc85590998a529
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 156d36dbe28ac52da3fa6157d7a1e8890aa9c66d
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 156d36dbe28ac52da3fa6157d7a1e8890aa9c66d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git symbolic-ref --short HEAD
+> git cat-file -s 125425dd2cc9b5dfd80ef2654a61983e44daf19c
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 125425dd2cc9b5dfd80ef2654a61983e44daf19c
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 125425dd2cc9b5dfd80ef2654a61983e44daf19c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git cat-file -s 125425dd2cc9b5dfd80ef2654a61983e44daf19c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git config --get commit.template
+> git cat-file -s 156d36dbe28ac52da3fa6157d7a1e8890aa9c66d
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/boolean_game_dp.cpp
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git cat-file -s 156d36dbe28ac52da3fa6157d7a1e8890aa9c66d
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/boolean_game_dp.cpp
+> git show --textconv :codechef/april_long_challenge/output.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/output.txt
+> git show --textconv :codechef/april_long_challenge/destroy_the_emp_chip.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/destroy_the_emp_chip.cpp
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/destroy_the_emp_chip.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/destroy_the_emp_chip.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/destroy_the_emp_chip.cpp
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/destroy_the_emp_chip.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/yash/Desktop/d/github_projects/competitive_programming/codechef/april_long_challenge/input.txt
+> git show --textconv :codechef/april_long_challenge/input.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

@@ -1,0 +1,33 @@
+{"key":"shows_default_quality","value":"2160p","_id":"1Rlk3Bu8fuSxfGWK"}
+{"key":"disclaimerAccepted","value":1,"_id":"2Ttz2XyjZ1o3gEzx"}
+{"key":"lastWatchedTitle","value":"The Wilds - Season 1, Episode 7 - Day Fifteen","_id":"7ZVUp5IbmbFr6Oip"}
+{"key":"movies_default_quality","value":"1080p","_id":"AkWXL30jdnq8tqAR"}
+{"key":"version","value":"0.4.4","_id":"Dp6iLeCnWye29oQb"}
+{"key":"start_screen","value":"TV Series","_id":"ElBaAUoUvOizYFzj"}
+{"key":"showAdvancedSettings","value":true,"_id":"G5AefGHv7py0oer0"}
+{"key":"traktLastSync","value":false,"_id":"MQCxcviBcYDMwitj"}
+{"key":"releaseName","value":"Love in the Time of Corona","_id":"MQgfURNSkIm3mr1M"}
+{"key":"totalUploaded","value":null,"_id":"MSJr9deL1UW2moYR"}
+{"key":"ipAddress","value":"192.168.1.39","_id":"S3knP8rhrK5TGb0O"}
+{"key":"subtitle_language","value":"en","_id":"T4oEa4RheSfOIM2E"}
+{"key":"deleteTmpOnClose","value":true,"_id":"TTj6IcFZ4fvVpOhE"}
+{"key":"playerVolume","value":"1.0","_id":"XVcFqxStpzpedRaT"}
+{"key":"traktStatus","value":false,"_id":"ZBpWgUo1bqfl59fL"}
+{"key":"totalDownloaded","value":null,"_id":"cxqnlXADR1Va7yGE"}
+{"key":"arch","value":"x64","_id":"dkRfzX2gP12IspiR"}
+{"key":"traktLastActivities","value":false,"_id":"fC5aGTTFmvZ0FUq5"}
+{"key":"tmpLocation","value":"/home/yash/Videos/Popcorn Time","_id":"fGmgBj2v08uwPDRN"}
+{"key":"vpnEnabled","value":false,"_id":"fHGiIlNnhlPt3ybe"}
+{"key":"lastWatchedTime","value":329.984378,"_id":"ki8ES5TqvaXWnGg6"}
+{"key":"chosenPlayer","value":"VLC","_id":"nT1N0E0EnzgcPfda"}
+{"key":"startScreen","value":"TV Series","_id":"pbPmk7CJLsrLd8eh"}
+{"key":"os","value":"linux","_id":"toLvySRKPFuTcMuC"}
+{"key":"language","value":"en","_id":"vgNUB8EHnBRjbRZt"}
+{"key":"filters","value":{"anime":{"sorter":"popularity","genre":"","type":"All","order":-1},"shows":{"sorter":"popularity","genre":"All","order":-1},"movies":{"sorter":"popularity","genre":"All","order":-1}},"_id":"zRftxJEqerMO1eb6"}
+{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
+{"key":"version","value":"0.4.4","_id":"Dp6iLeCnWye29oQb"}
+{"key":"releaseName","value":"Love in the Time of Corona","_id":"MQgfURNSkIm3mr1M"}
+{"key":"arch","value":"x64","_id":"dkRfzX2gP12IspiR"}
+{"key":"os","value":"linux","_id":"toLvySRKPFuTcMuC"}
+{"key":"totalDownloaded","value":null,"_id":"cxqnlXADR1Va7yGE"}
+{"key":"totalUploaded","value":null,"_id":"MSJr9deL1UW2moYR"}

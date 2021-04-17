@@ -1,0 +1,49 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabCompletion": "on",
+    "editor.fontSize": 17,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "'cascadia code'",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": null,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "window.titleSeparator": " -",
+    "git.suggestSmartCommit": false,
+    "git.confirmSync": false,
+
+    /** Vim **/
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "editor.lineNumbers": "relative",
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "window.zoomLevel": 1
+}
